@@ -10,10 +10,25 @@ function Get-LayoutPositions
 
     for ($i = 0; $i -lt $Items.Count; $i++)
     {
+        #
+        # Nome do item
+        #
+
+        if ($Items[$i] -is [string])
+        {
+            $ItemName = $Items[$i]
+        }
+        else
+        {
+            $ItemName = $Items[$i].Name
+        }
+
+        #
+        # Coordenadas
+        #
+
         $Linha =
-            [math]::Floor(
-                $i / $Profile.Layout.Columns
-            )
+            [math]::Floor($i / $Profile.Layout.Columns)
 
         $Coluna =
             $i % $Profile.Layout.Columns
@@ -26,10 +41,17 @@ function Get-LayoutPositions
             $Profile.Layout.YStart +
             ($Linha * $Profile.Layout.StepY)
 
+        #
+        # Resultado
+        #
+
         $Resultado += [PSCustomObject]@{
-            Name   = $Items[$i]
+
+            Name   = $ItemName
+
             X      = $X
             Y      = $Y
+
             Row    = $Linha
             Column = $Coluna
         }
