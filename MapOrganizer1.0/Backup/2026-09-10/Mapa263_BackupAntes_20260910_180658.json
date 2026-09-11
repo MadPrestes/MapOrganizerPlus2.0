@@ -1,0 +1,2531 @@
+﻿{
+    "sysmapid":  "263",
+    "name":  "Rádios VHF (backup)",
+    "width":  "1920",
+    "height":  "1080",
+    "backgroundid":  "0",
+    "label_type":  "0",
+    "label_location":  "0",
+    "highlight":  "1",
+    "expandproblem":  "1",
+    "markelements":  "0",
+    "show_unack":  "0",
+    "grid_size":  "50",
+    "grid_show":  "1",
+    "grid_align":  "1",
+    "label_format":  "1",
+    "label_type_host":  "2",
+    "label_type_hostgroup":  "2",
+    "label_type_trigger":  "2",
+    "label_type_map":  "2",
+    "label_type_image":  "2",
+    "label_string_host":  "",
+    "label_string_hostgroup":  "",
+    "label_string_trigger":  "",
+    "label_string_map":  "",
+    "label_string_image":  "",
+    "iconmapid":  "0",
+    "expand_macros":  "0",
+    "severity_min":  "2",
+    "userid":  "40",
+    "private":  "1",
+    "show_suppressed":  "0",
+    "selements":  [
+                      {
+                          "selementid":  "12229",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12201"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12230",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12200"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12231",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12199"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12232",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12198"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12233",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12197"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12234",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12196"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12235",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12195"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12236",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12194"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12237",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12193"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12238",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12192"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12239",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12191"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12240",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12190"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12241",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12189"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12242",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12188"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12243",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "151",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12187"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12244",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12185"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12245",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12182"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12246",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12184"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12247",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12183"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12248",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12181"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12249",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12180"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12250",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12179"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12251",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12178"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12252",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12177"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12253",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12176"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12254",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12175"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12255",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12174"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12256",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12173"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12257",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12172"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12258",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "200",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12171"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12259",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12170"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12260",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12169"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12261",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12168"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12262",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12167"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12263",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12166"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12264",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12165"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12265",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12164"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12266",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12163"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12267",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12162"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12268",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12161"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12269",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12160"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12270",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12159"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12271",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12158"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12272",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12157"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12273",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12155"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12274",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12154"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12275",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12153"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12276",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12202"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12277",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12203"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12278",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12204"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12279",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12205"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12280",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12206"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12281",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12207"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12282",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12208"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12283",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12209"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12284",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12210"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12285",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12211"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12286",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12212"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12287",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12213"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12288",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "901",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12214"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12289",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1101",
+                          "y":  "851",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "12215"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12290",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "271",
+                          "iconid_on":  "272",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "61",
+                          "y":  "32",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "274",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "10937"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12291",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "15998"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12292",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "16834"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12293",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "16890"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12294",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "16891"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12295",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "51",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19963"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12296",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19964"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12297",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19965"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12298",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "701",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19966"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12299",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "351",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19967"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12300",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "1301",
+                          "y":  "451",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19968"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12301",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "101",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19969"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12302",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "1701",
+                          "y":  "651",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19970"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12303",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "301",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19971"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12304",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "{HOST.NAME}",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "751",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "19972"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12305",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "1501",
+                          "y":  "251",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "20020"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      },
+                      {
+                          "selementid":  "12306",
+                          "sysmapid":  "263",
+                          "elementtype":  "0",
+                          "iconid_off":  "211",
+                          "iconid_on":  "212",
+                          "label":  "Novo elemento",
+                          "label_location":  "-1",
+                          "x":  "501",
+                          "y":  "551",
+                          "iconid_disabled":  "0",
+                          "iconid_maintenance":  "0",
+                          "elementsubtype":  "0",
+                          "areatype":  "0",
+                          "width":  "200",
+                          "height":  "200",
+                          "viewtype":  "0",
+                          "use_iconmap":  "0",
+                          "evaltype":  "0",
+                          "elements":  [
+                                           {
+                                               "hostid":  "20047"
+                                           }
+                                       ],
+                          "urls":  [
+
+                                   ],
+                          "tags":  [
+
+                                   ],
+                          "permission":  2
+                      }
+                  ]
+}

@@ -1,0 +1,17 @@
+# Logs
+Logs/*
+
+# Backups
+Backup/*
+
+# Previews
+Preview/*
+
+# Configurações locais
+Config/local.json
+
+# VS Code
+.vscode/
+
+# PowerShell
+*.tmp
