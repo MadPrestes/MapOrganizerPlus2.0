@@ -9,3 +9,6 @@
 . "$PSScriptRoot\LayoutEngine.ps1"
 . "$PSScriptRoot\PreviewEngine.ps1"
 . "$PSScriptRoot\MapEngine.ps1"
+. "$PSScriptRoot\SelectFixedElements.ps1"
+
+. "$PSScriptRoot\SaveProfile.ps1"

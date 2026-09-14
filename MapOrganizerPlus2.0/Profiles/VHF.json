@@ -1,19 +1,18 @@
 {
-    "ProfileName": "VHF",
-
-    "Layout": {
-        "Columns": 9,
-        "XStart": 101,
-        "YStart": 51,
-        "StepX": 200,
-        "StepY": 100
-    },
-
-    "Sorting": {
-        "Mode": "Alphabetic"
-    },
-
-    "FixedElements": [
-        "ControlONE Sede"
-    ]
+    "ProfileName":  "VHF",
+    "Layout":  {
+                   "Columns":  9,
+                   "XStart":  101,
+                   "YStart":  51,
+                   "StepX":  200,
+                   "StepY":  100
+               },
+    "Sorting":  {
+                    "Mode":  "Alphabetic"
+                },
+    "FixedElements":  [
+                          "ControlONE Sede",
+                          "TEL-GTW-VHF_LIV3_ControlOne",
+                          "TEL-GTW-VHF_JLB_ControlOne"
+                      ]
 }
