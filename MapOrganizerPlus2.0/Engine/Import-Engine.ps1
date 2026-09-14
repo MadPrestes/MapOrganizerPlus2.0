@@ -12,3 +12,6 @@
 . "$PSScriptRoot\SelectFixedElements.ps1"
 
 . "$PSScriptRoot\SaveProfile.ps1"
+. "$PSScriptRoot\getMaps.ps1"
+. "$PSScriptRoot\selectMap.ps1"
+. "$PSScriptRoot\saveprofile.ps1"
