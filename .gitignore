@@ -8,10 +8,11 @@ Backup/*
 Preview/*
 
 # Configurações locais
-Config/local.json
+Config/Config.local.json
 
 # VS Code
 .vscode/
 
 # PowerShell
 *.tmp
+

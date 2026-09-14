@@ -1,0 +1,9 @@
+{
+    "Zabbix": {
+
+        "Url": "https://zabbix.cgteletrosul.com.br/zabbix/api_jsonrpc.php",
+
+        "Token": "acd6a3d776a737bcf2a35ce3b7674532223cbe757542bdea5fa3e8d0f8ee06d5",
+        "ignoreCert" : true
+    }
+}
