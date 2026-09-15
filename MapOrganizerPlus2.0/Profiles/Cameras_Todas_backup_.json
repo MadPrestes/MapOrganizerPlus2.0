@@ -1,0 +1,18 @@
+﻿{
+    "FixedElements":  [
+                          "CAM-BIG-06",
+                          "CAM-GRT-03",
+                          "CAM-ITJ-07"
+                      ],
+    "Sorting":  {
+                    "Mode":  "Alphabetic"
+                },
+    "Layout":  {
+                   "XStart":  0,
+                   "YStart":  0,
+                   "Columns":  0,
+                   "StepY":  0,
+                   "StepX":  0
+               },
+    "ProfileName":  "Cameras_Todas_backup_"
+}

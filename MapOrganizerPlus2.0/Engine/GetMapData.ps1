@@ -1,3 +1,5 @@
+
+<#
 function Invoke-ZabbixApi
 {
     param(
@@ -27,6 +29,7 @@ function Invoke-ZabbixApi
             -Body $Body
     )
 }
+#>
 
 function Get-MapData
 {

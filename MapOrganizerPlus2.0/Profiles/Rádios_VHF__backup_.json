@@ -1,0 +1,16 @@
+﻿{
+    "FixedElements":  [
+
+                      ],
+    "Sorting":  {
+                    "Mode":  "Alphabetic"
+                },
+    "Layout":  {
+                   "XStart":  101,
+                   "YStart":  51,
+                   "Columns":  9,
+                   "StepY":  100,
+                   "StepX":  200
+               },
+    "ProfileName":  "Rádios_VHF__backup_"
+}

@@ -11,36 +11,53 @@ function Get-MapElements
 
     $Resultado = @()
 
+     $Total =
+    $Map.selements.Count
+
+     $Current = 0
+
     foreach ($Selement in $Map.selements)
-    {
-        $HostId =
-            $Selement.elements[0].hostid
+{
+    $Current++
 
-        $HostData =
-            Invoke-ZabbixApi `
-                -Method "host.get" `
-                -Params @{
-                    hostids = $HostId
-                }
+    Write-Progress `
+        -Activity "Obtendo elementos do mapa" `
+        -Status "$Current de $Total" `
+        -PercentComplete (
+            ($Current / $Total) * 100
+        )
 
-        $Resultado += [PSCustomObject]@{
+    $HostId =
+        $Selement.elements[0].hostid
 
-            Name =
-                $HostData.result[0].name
+    $HostData =
+        Invoke-ZabbixApi `
+            -Method "host.get" `
+            -Params @{
+                hostids = $HostId
+            }
 
-            HostId =
-                $HostId
+    $Resultado += [PSCustomObject]@{
 
-            SelementId =
-                $Selement.selementid
+        Name =
+            $HostData.result[0].name
 
-            X =
-                $Selement.x
+        HostId =
+            $HostId
 
-            Y =
-                $Selement.y
-        }
+        SelementId =
+            $Selement.selementid
+
+        X =
+            $Selement.x
+
+        Y =
+            $Selement.y
     }
+}
 
+    Write-Progress `
+    -Activity "Obtendo elementos do mapa" `
+    -Completed
     return $Resultado
 }

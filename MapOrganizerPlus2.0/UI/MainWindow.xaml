@@ -1,0 +1,104 @@
+<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MPO2+"
+    Height="700"
+    Width="1000"
+    WindowStartupLocation="CenterScreen">
+
+
+    <Grid Margin="10">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="Auto"/>
+
+            <RowDefinition Height="*"/>
+
+        </Grid.RowDefinitions>
+
+        <!-- Título -->
+
+        <TextBlock
+            Grid.Row="0"
+            Text="Map Organizer Plus 2+"
+            FontSize="24"
+            FontWeight="Bold"
+            Margin="0,0,0,10"/>
+
+        <!-- Seleção de mapa -->
+
+        <StackPanel
+            Grid.Row="1"
+            Orientation="Horizontal"
+            Margin="0,0,0,10">
+
+            <Label
+                Content="Mapa:"
+                VerticalAlignment="Center"/>
+
+            <ComboBox
+                Name="cmbMaps"
+                Width="400"
+                Margin="10,0,0,0"/>
+
+        </StackPanel>
+
+        <!-- Botões -->
+
+        <StackPanel
+            Grid.Row="2"
+            Orientation="Horizontal"
+            Margin="0,0,0,10">
+
+            <Button
+                Name="btnPreview"
+                Content="Preview"
+                Width="120"/>
+
+            <Button
+                Name="btnLayout"
+                Content="Layout"
+                Width="120"/>
+
+            <Button
+                Name="btnFixedElements"
+                Content="Elementos Fixos"
+                Width="140"/>
+
+            <Button
+                Name="btnApply"
+                Content="Aplicar"
+                Width="120"/>
+
+        </StackPanel>
+
+        <!-- Status -->
+
+        <Border
+            Grid.Row="3"
+            Margin="0,0,0,10"
+            Padding="8">
+
+            <TextBlock
+                Name="txtStatus"
+                Text="MPO2+ iniciado."/>
+
+        </Border>
+
+        <!-- Preview -->
+
+        <DataGrid
+            Grid.Row="4"
+            Name="gridPreview"
+            AutoGenerateColumns="True"/>
+        
+    </Grid>
+
+</Window>

@@ -18,23 +18,44 @@ function Save-Profile
             $Root `
             "Profiles\$ProfileName.json"
 
+    #
+    # Cria profile automaticamente
+    #
+
+    if (-not (Test-Path $ProfileFile))
+    {
+        New-Profile `
+            -ProfileName $ProfileName
+    }
+
+    #
+    # Carrega profile
+    #
+
     $Profile =
         Get-Content `
             $ProfileFile `
             -Raw |
         ConvertFrom-Json
 
-if (
-    $Profile.FixedElements -contains $ItemName
-)
-{
-    continue
-}
+    #
+    # Atualiza fixos
+    #
+
+    $Profile.FixedElements =
+        $FixedElements |
+        Sort-Object -Unique
+
+    #
+    # Salva profile
+    #
+
     $Profile |
         ConvertTo-Json `
             -Depth 20 |
         Set-Content `
-            $ProfileFile
+            $ProfileFile `
+            -Encoding UTF8
 
     return $Profile
 }

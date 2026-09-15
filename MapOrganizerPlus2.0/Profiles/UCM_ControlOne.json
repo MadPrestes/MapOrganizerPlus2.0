@@ -1,0 +1,19 @@
+﻿[
+    "D:\\tools\\zabbix\\MapOrganizerPlus2.0\\Profiles\\UCM_ControlOne.json",
+    {
+        "FixedElements":  [
+
+                          ],
+        "Sorting":  {
+                        "Mode":  "Alphabetic"
+                    },
+        "Layout":  {
+                       "XStart":  150,
+                       "YStart":  53,
+                       "Columns":  9,
+                       "StepY":  20,
+                       "StepX":  50
+                   },
+        "ProfileName":  "UCM_ControlOne"
+    }
+]

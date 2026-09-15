@@ -15,3 +15,4 @@
 . "$PSScriptRoot\getMaps.ps1"
 . "$PSScriptRoot\selectMap.ps1"
 . "$PSScriptRoot\saveprofile.ps1"
+. "$PSScriptRoot\newProfile.ps1"

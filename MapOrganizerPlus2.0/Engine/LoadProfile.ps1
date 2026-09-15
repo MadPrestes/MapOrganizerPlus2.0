@@ -17,14 +17,23 @@ function Get-MapProfile
 
     if (-not (Test-Path $ProfileFile))
     {
-        throw "Profile nao encontrado: $ProfileName"
+        Write-Host ""
+        Write-Host "Profile nao encontrado." `
+            -ForegroundColor Yellow
+
+        Write-Host "Criando automaticamente..." `
+            -ForegroundColor Yellow
+
+        Write-Host ""
+
+        New-Profile `
+            -ProfileName $ProfileName
     }
 
-    $Profile =
+    return (
         Get-Content `
             $ProfileFile `
             -Raw |
         ConvertFrom-Json
-
-    return $Profile
+    )
 }
