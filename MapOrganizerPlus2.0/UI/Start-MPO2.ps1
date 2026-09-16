@@ -44,6 +44,21 @@ $btnPreview =
         "btnPreview"
     )
 
+$btnLayout =
+    $Window.FindName(
+        "btnLayout"
+    )
+
+$btnFixedElements =
+    $Window.FindName(
+        "btnFixedElements"
+    )
+
+$btnApply =
+    $Window.FindName(
+        "btnApply"
+    )
+
 $txtStatus =
     $Window.FindName(
         "txtStatus"
@@ -55,7 +70,25 @@ $gridPreview =
     )
 
 #
-# Teste do ComboBox
+# Tema
+#
+
+. "$PSScriptRoot\Themes\VSCodeDark.ps1"
+
+. "$PSScriptRoot\Themes\Set-MPOTheme.ps1"
+
+Set-MPOTheme `
+    -Window $Window `
+    -cmbMaps $cmbMaps `
+    -btnPreview $btnPreview `
+    -btnLayout $btnLayout `
+    -btnFixedElements $btnFixedElements `
+    -btnApply $btnApply `
+    -txtStatus $txtStatus `
+    -gridPreview $gridPreview
+
+#
+# Teste ComboBox
 #
 
 $cmbMaps.Items.Add(
@@ -96,7 +129,7 @@ $btnPreview.Add_Click({
 })
 
 #
-# Exibe janela
+# Exibe Janela
 #
 
 $Window.ShowDialog() |

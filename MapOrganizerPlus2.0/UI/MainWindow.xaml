@@ -40,13 +40,16 @@
             Margin="0,0,0,10">
 
             <Label
-                Content="Mapa:"
+                Content="Mapa :"
+                Foreground="#D4D4D4"
                 VerticalAlignment="Center"/>
 
             <ComboBox
                 Name="cmbMaps"
                 Width="400"
-                Margin="10,0,0,0"/>
+                Margin="10,0,0,0"
+                Foreground="#0f0f0f"
+                IsEditable="False"/>
 
         </StackPanel>
 
@@ -95,9 +98,38 @@
         <!-- Preview -->
 
         <DataGrid
-            Grid.Row="4"
-            Name="gridPreview"
-            AutoGenerateColumns="True"/>
+    Grid.Row="4"
+    Name="gridPreview"
+    AutoGenerateColumns="True"
+    CanUserAddRows="False"
+    CanUserDeleteRows="False"
+    IsReadOnly="True">
+
+    <DataGrid.ColumnHeaderStyle>
+
+        <Style TargetType="DataGridColumnHeader">
+
+            <Setter
+                Property="Background"
+                Value="#252526"/>
+
+            <Setter
+                Property="Foreground"
+                Value="#D4D4D4"/>
+
+            <Setter
+                Property="BorderBrush"
+                Value="#4E4E4E"/>
+
+            <Setter
+                Property="FontWeight"
+                Value="SemiBold"/>
+
+        </Style>
+
+    </DataGrid.ColumnHeaderStyle>
+
+</DataGrid>
         
     </Grid>
 
