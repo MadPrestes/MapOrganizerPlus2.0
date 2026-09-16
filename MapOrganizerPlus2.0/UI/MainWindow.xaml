@@ -12,13 +12,10 @@
         <Grid.RowDefinitions>
 
             <RowDefinition Height="Auto"/>
-
             <RowDefinition Height="Auto"/>
-
             <RowDefinition Height="Auto"/>
-
             <RowDefinition Height="Auto"/>
-
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
 
         </Grid.RowDefinitions>
@@ -27,7 +24,7 @@
 
         <TextBlock
             Grid.Row="0"
-            Text="Map Organizer Plus 2+"
+            Text="Map Organizer Plus 2.0"
             FontSize="24"
             FontWeight="Bold"
             Margin="0,0,0,10"/>
@@ -63,7 +60,11 @@
             <Button
                 Name="btnPreview"
                 Content="Preview"
-                Width="120"/>
+                Width="120"
+                Height="30">
+
+                
+            </Button>
 
             <Button
                 Name="btnLayout"
@@ -89,18 +90,32 @@
             Margin="0,0,0,10"
             Padding="8">
 
+
             <TextBlock
                 Name="txtStatus"
                 Text="MPO2+ iniciado."/>
 
         </Border>
 
+                     <ProgressBar
+                 Grid.Row="4"
+                 Name="pgMain"
+                 Height="4"
+                 Margin="0,0,0,4"
+                 Visibility="Collapsed"
+                 Minimum="0"
+                 Maximum="100"
+                 IsIndeterminate="False"
+                 Value="0"
+                 Foreground="#B71C1C"
+                 Background="#252526"/>
+
         <!-- Preview -->
 
-        <DataGrid
-    Grid.Row="4"
+<DataGrid
+    Grid.Row="5"
     Name="gridPreview"
-    AutoGenerateColumns="True"
+    AutoGenerateColumns="False"
     CanUserAddRows="False"
     CanUserDeleteRows="False"
     IsReadOnly="True">
@@ -109,28 +124,52 @@
 
         <Style TargetType="DataGridColumnHeader">
 
-            <Setter
-                Property="Background"
-                Value="#252526"/>
+            <Setter Property="Background"
+                    Value="#252526"/>
 
-            <Setter
-                Property="Foreground"
-                Value="#D4D4D4"/>
+            <Setter Property="Foreground"
+                    Value="#D4D4D4"/>
 
-            <Setter
-                Property="BorderBrush"
-                Value="#4E4E4E"/>
+            <Setter Property="BorderBrush"
+                    Value="#4E4E4E"/>
 
-            <Setter
-                Property="FontWeight"
-                Value="SemiBold"/>
+            <Setter Property="FontWeight"
+                    Value="SemiBold"/>
 
         </Style>
 
     </DataGrid.ColumnHeaderStyle>
 
+    <DataGrid.Columns>
+
+        <DataGridTextColumn
+            Header="Nome"
+            Binding="{Binding Name}"
+            Width="200"/>
+
+        <DataGridTextColumn
+            Header="Host"
+            Binding="{Binding HostId}"
+            Width="70"/>
+
+        <DataGridTextColumn
+            Header="Elemento"
+            Binding="{Binding SelementId}"
+            Width="80"/>
+
+        <DataGridTextColumn
+            Header="X"
+            Binding="{Binding X}"
+            Width="60"/>
+
+        <DataGridTextColumn
+            Header="Y"
+            Binding="{Binding Y}"
+            Width="60"/>
+
+    </DataGrid.Columns>
+
 </DataGrid>
-        
     </Grid>
 
 </Window>

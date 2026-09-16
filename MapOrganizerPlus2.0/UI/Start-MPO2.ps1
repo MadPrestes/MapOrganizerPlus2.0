@@ -1,5 +1,9 @@
 Add-Type -AssemblyName PresentationFramework
 
+#
+# Carrega XAML
+#
+
 [xml]$Xaml =
     Get-Content `
         "$PSScriptRoot\MainWindow.xaml" `
@@ -34,47 +38,24 @@ catch
 # Controles
 #
 
-$cmbMaps =
-    $Window.FindName(
-        "cmbMaps"
-    )
+$cmbMaps            = $Window.FindName("cmbMaps")
 
-$btnPreview =
-    $Window.FindName(
-        "btnPreview"
-    )
+$btnPreview         = $Window.FindName("btnPreview")
+$btnLayout          = $Window.FindName("btnLayout")
+$btnFixedElements   = $Window.FindName("btnFixedElements")
+$btnApply           = $Window.FindName("btnApply")
 
-$btnLayout =
-    $Window.FindName(
-        "btnLayout"
-    )
+$txtStatus          = $Window.FindName("txtStatus")
 
-$btnFixedElements =
-    $Window.FindName(
-        "btnFixedElements"
-    )
+$pgMain             = $Window.FindName("pgMain")
 
-$btnApply =
-    $Window.FindName(
-        "btnApply"
-    )
-
-$txtStatus =
-    $Window.FindName(
-        "txtStatus"
-    )
-
-$gridPreview =
-    $Window.FindName(
-        "gridPreview"
-    )
+$gridPreview        = $Window.FindName("gridPreview")
 
 #
-# Tema
+# Theme
 #
 
 . "$PSScriptRoot\Themes\VSCodeDark.ps1"
-
 . "$PSScriptRoot\Themes\Set-MPOTheme.ps1"
 
 Set-MPOTheme `
@@ -88,20 +69,37 @@ Set-MPOTheme `
     -gridPreview $gridPreview
 
 #
-# Teste ComboBox
+# Engine
 #
 
-$cmbMaps.Items.Add(
-    "Radios VHF (backup)"
-)
+. "$PSScriptRoot\..\Engine\Import-Engine.ps1"
 
-$cmbMaps.Items.Add(
-    "Cameras todas (backup)"
-)
+#
+# Carrega mapas
+#
 
-$cmbMaps.Items.Add(
-    "TDM"
-)
+$txtStatus.Text =
+    "Carregando mapas..."
+
+$Stopwatch =
+    [System.Diagnostics.Stopwatch]::StartNew()
+
+$Maps =
+    Get-Maps
+
+$Stopwatch.Stop()
+
+$cmbMaps.ItemsSource =
+    $Maps
+
+$cmbMaps.DisplayMemberPath =
+    "name"
+
+$cmbMaps.SelectedValuePath =
+    "sysmapid"
+
+$txtStatus.Text =
+    "$($Maps.Count) mapas carregados em $($Stopwatch.ElapsedMilliseconds) ms."
 
 #
 # Evento Preview
@@ -109,23 +107,107 @@ $cmbMaps.Items.Add(
 
 $btnPreview.Add_Click({
 
-    $txtStatus.Text =
-        "SPARTAAAAAA!!!"
+    try
+    {
+        $MapId =
+            $cmbMaps.SelectedValue
 
-    $gridPreview.ItemsSource =
-        @(
-            [PSCustomObject]@{
-                Nome  = "TEL-GTW-VHF_ABT"
-                Atual = "100,100"
-                Novo  = "200,100"
-            }
+        if (-not $MapId)
+        {
+            $txtStatus.Text =
+                "Nenhum mapa selecionado."
 
-            [PSCustomObject]@{
-                Nome  = "TEL-GTW-VHF_BIG"
-                Atual = "300,100"
-                Novo  = "400,100"
-            }
+            return
+        }
+
+        #
+        # Blood Preview™
+        #
+
+        $btnPreview.Content =
+            "CARREGANDO..."
+
+        $btnPreview.Background =
+            "#B71C1C"
+
+        $pgMain.Value =
+            0
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Visible
+
+        $txtStatus.Text =
+            "Obtendo elementos..."
+
+        $Window.Dispatcher.Invoke(
+            [System.Action]{},
+            [System.Windows.Threading.DispatcherPriority]::Render
         )
+
+        #
+        # Consulta
+        #
+
+        $Elements =
+            Get-MapElements `
+                -SysmapId $MapId `
+                -ProgressAction {
+                    param(
+                        [int]$Current,
+                        [int]$Total
+                    )
+
+                    $Percent =
+                        if ($Total -gt 0) {
+                            ($Current / $Total) * 100
+                        }
+                        else {
+                            100
+                        }
+
+                    $Window.Dispatcher.Invoke(
+                        [System.Action]{
+                            $pgMain.Value = $Percent
+                        },
+                        [System.Windows.Threading.DispatcherPriority]::Render
+                    )
+                }
+
+        #
+        # Grid
+        #
+
+        $gridPreview.ItemsSource =
+            $Elements
+
+        #
+        # Status
+        #
+
+        $txtStatus.Text =
+            "$($Elements.Count) elementos carregados."
+    }
+    catch
+    {
+        $txtStatus.Text =
+            $_.Exception.Message
+    }
+    finally
+    {
+        #
+        # Restaura botão
+        #
+
+        $btnPreview.Content =
+            "Preview"
+
+        $btnPreview.Background =
+            $Global:MPOTheme.ControlBackground
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Collapsed
+    }
+
 })
 
 #

@@ -2,7 +2,9 @@ function Get-MapElements
 {
     param(
         [Parameter(Mandatory)]
-        [string]$SysmapId
+        [string]$SysmapId,
+
+        [scriptblock]$ProgressAction
     )
 
     $Map =
@@ -19,6 +21,11 @@ function Get-MapElements
     foreach ($Selement in $Map.selements)
 {
     $Current++
+
+    if ($ProgressAction)
+    {
+        & $ProgressAction $Current $Total
+    }
 
     Write-Progress `
         -Activity "Obtendo elementos do mapa" `
