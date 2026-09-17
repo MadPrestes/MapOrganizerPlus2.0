@@ -39,17 +39,23 @@ catch
 #
 
 $cmbMaps            = $Window.FindName("cmbMaps")
+$cmbColumns         = $Window.FindName("cmbColumns")
 
 $btnPreview         = $Window.FindName("btnPreview")
 $btnLayout          = $Window.FindName("btnLayout")
 $btnFixedElements   = $Window.FindName("btnFixedElements")
 $btnApply           = $Window.FindName("btnApply")
+$btnSync            = $Window.FindName("btnSync")
 
 $txtStatus          = $Window.FindName("txtStatus")
 
 $pgMain             = $Window.FindName("pgMain")
 
 $gridPreview        = $Window.FindName("gridPreview")
+$cnvLayoutPreview   = $Window.FindName("cnvLayoutPreview")
+
+$script:LastLayoutPreview = @()
+$script:LastLayoutMapId = $null
 
 #
 # Theme
@@ -73,6 +79,171 @@ Set-MPOTheme `
 #
 
 . "$PSScriptRoot\..\Engine\Import-Engine.ps1"
+. "$PSScriptRoot\..\Engine\SyncMaps.ps1"
+
+function Update-LayoutPreview
+{
+    param(
+        [Parameter(Mandatory)]
+        [System.Windows.Controls.Canvas]$Canvas,
+
+        [array]$LayoutPreview,
+        [int]$Width,
+        [int]$Height
+    )
+
+    $Canvas.Children.Clear()
+    $Canvas.Width = $Width
+    $Canvas.Height = $Height
+
+    $BrushConverter =
+        New-Object System.Windows.Media.BrushConverter
+
+    foreach ($Item in $LayoutPreview)
+    {
+        $Card =
+            New-Object System.Windows.Controls.Border
+
+        $Card.Width = 150
+        $Card.Height = 38
+        $Card.Background =
+            $BrushConverter.ConvertFromString("#B71C1C")
+        $Card.BorderBrush =
+            $BrushConverter.ConvertFromString("#F5B7B1")
+        $Card.BorderThickness =
+            New-Object System.Windows.Thickness(1)
+        $Card.CornerRadius =
+            New-Object System.Windows.CornerRadius(2)
+        $Card.ToolTip =
+            "$($Item.Name) | Linha $($Item.Linha), coluna $($Item.Coluna)"
+
+        $Label =
+            New-Object System.Windows.Controls.TextBlock
+
+        $Label.Text =
+            "$($Item.Linha).$($Item.Coluna)  $($Item.Name)"
+        $Label.Foreground =
+            [System.Windows.Media.Brushes]::White
+        $Label.FontSize = 11
+        $Label.Margin =
+            New-Object System.Windows.Thickness(6,0,6,0)
+        $Label.VerticalAlignment =
+            [System.Windows.VerticalAlignment]::Center
+        $Label.TextTrimming =
+            [System.Windows.TextTrimming]::CharacterEllipsis
+
+        $Card.Child =
+            $Label
+
+        $Left =
+            [math]::Max(0, [int]$Item.XNovo - 75)
+
+        $Top =
+            [math]::Max(0, [int]$Item.YNovo - 19)
+
+        [System.Windows.Controls.Canvas]::SetLeft($Card, $Left)
+        [System.Windows.Controls.Canvas]::SetTop($Card, $Top)
+
+        $Canvas.Children.Add($Card) |
+            Out-Null
+    }
+}
+
+function Open-LayoutPreviewWindow
+{
+    param(
+        [array]$LayoutPreview,
+        [int]$Width,
+        [int]$Height,
+        [int]$Columns
+    )
+
+    if (-not $script:PreviewWindow -or -not $script:PreviewWindow.IsVisible)
+    {
+        [xml]$PreviewXaml =
+            Get-Content `
+                "$PSScriptRoot\PreviewWindow.xaml" `
+                -Raw
+
+        $PreviewReader =
+            New-Object `
+                System.Xml.XmlNodeReader `
+                $PreviewXaml
+
+        $script:PreviewWindow =
+            [Windows.Markup.XamlReader]::Load(
+                $PreviewReader
+            )
+
+        $script:PreviewWindow.Owner =
+            $Window
+
+        $script:PreviewCanvas =
+            $script:PreviewWindow.FindName("cnvPreview")
+
+        $script:PreviewZoom =
+            $script:PreviewWindow.FindName("sldPreviewZoom")
+
+        $script:PreviewZoomText =
+            $script:PreviewWindow.FindName("txtPreviewZoom")
+
+        $script:PreviewScrollViewer =
+            $script:PreviewWindow.FindName("svPreview")
+
+        $script:PreviewZoom.Add_ValueChanged({
+            $Scale =
+                [double]$script:PreviewZoom.Value
+
+            $script:PreviewCanvas.LayoutTransform =
+                New-Object System.Windows.Media.ScaleTransform -ArgumentList @($Scale, $Scale)
+
+            $script:PreviewZoomText.Text =
+                "{0:P0}" -f $Scale
+        })
+
+        $script:PreviewWindow.FindName("btnFitPreview").Add_Click({
+            if ($script:PreviewCanvas.Width -gt 0 -and $script:PreviewCanvas.Height -gt 0)
+            {
+                $AvailableWidth =
+                    [math]::Max(1, $script:PreviewScrollViewer.ActualWidth - 20)
+
+                $AvailableHeight =
+                    [math]::Max(1, $script:PreviewScrollViewer.ActualHeight - 20)
+
+                $FitScale =
+                    [math]::Min(
+                        $AvailableWidth / $script:PreviewCanvas.Width,
+                        $AvailableHeight / $script:PreviewCanvas.Height
+                    )
+
+                $script:PreviewZoom.Value =
+                    [math]::Max(0.25, [math]::Min(3, $FitScale))
+            }
+        })
+    }
+
+    $script:PreviewCanvas =
+        $script:PreviewWindow.FindName("cnvPreview")
+
+    $PreviewInfo =
+        $script:PreviewWindow.FindName("txtPreviewInfo")
+
+    Update-LayoutPreview `
+        -Canvas $script:PreviewCanvas `
+        -LayoutPreview $LayoutPreview `
+        -Width $Width `
+        -Height $Height
+
+    $PreviewInfo.Text =
+        "$($LayoutPreview.Count) elementos | mapa ${Width}x${Height} | $Columns colunas"
+
+    if (-not $script:PreviewWindow.IsVisible)
+    {
+        $script:PreviewWindow.Show()
+    }
+
+    $script:PreviewWindow.Activate()
+}
 
 #
 # Carrega mapas
@@ -97,6 +268,12 @@ $cmbMaps.DisplayMemberPath =
 
 $cmbMaps.SelectedValuePath =
     "sysmapid"
+
+$cmbColumns.ItemsSource =
+    @(1..18)
+
+$cmbColumns.SelectedItem =
+    4
 
 $txtStatus.Text =
     "$($Maps.Count) mapas carregados em $($Stopwatch.ElapsedMilliseconds) ms."
@@ -157,13 +334,16 @@ $btnPreview.Add_Click({
                         [int]$Total
                     )
 
-                    $Percent =
-                        if ($Total -gt 0) {
+                    if ($Total -gt 0)
+                    {
+                        $Percent =
                             ($Current / $Total) * 100
-                        }
-                        else {
+                    }
+                    else
+                    {
+                        $Percent =
                             100
-                        }
+                    }
 
                     $Window.Dispatcher.Invoke(
                         [System.Action]{
@@ -208,6 +388,228 @@ $btnPreview.Add_Click({
             [System.Windows.Visibility]::Collapsed
     }
 
+})
+
+#
+# Evento Layout
+#
+
+$btnLayout.Add_Click({
+
+    try
+    {
+        $MapId =
+            $cmbMaps.SelectedValue
+
+        if (-not $MapId)
+        {
+            $txtStatus.Text =
+                "Nenhum mapa selecionado."
+
+            return
+        }
+
+        $btnLayout.IsEnabled =
+            $false
+
+        $pgMain.Value =
+            0
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Visible
+
+        $txtStatus.Text =
+            "Calculando layout..."
+
+        $Window.Dispatcher.Invoke(
+            [System.Action]{},
+            [System.Windows.Threading.DispatcherPriority]::Render
+        )
+
+        $Dimensions =
+            Get-MapDimensions `
+                -SysmapId $MapId
+
+        $Elements =
+            @(Get-MapElements `
+                -SysmapId $MapId `
+                -ProgressAction {
+                    param(
+                        [int]$Current,
+                        [int]$Total
+                    )
+
+                    if ($Total -gt 0)
+                    {
+                        $Percent =
+                            ($Current / $Total) * 100
+                    }
+                    else
+                    {
+                        $Percent =
+                            100
+                    }
+
+                    $Window.Dispatcher.Invoke(
+                        [System.Action]{
+                            $pgMain.Value = $Percent
+                        },
+                        [System.Windows.Threading.DispatcherPriority]::Render
+                    )
+                } |
+                Sort-Object -Property Name)
+
+        $Grid =
+            New-LayoutGrid `
+                -Width $Dimensions.Width `
+                -Height $Dimensions.Height `
+                -Columns ([int]$cmbColumns.SelectedItem) `
+                -ItemCount $Elements.Count
+
+        $LayoutPreview =
+            Build-PreviewLayout `
+                -Elements $Elements `
+                -Grid $Grid
+
+        $gridPreview.ItemsSource =
+            $LayoutPreview
+
+        $script:LastLayoutPreview =
+            @($LayoutPreview)
+
+        $script:LastLayoutMapId =
+            [int]$MapId
+
+        Update-LayoutPreview `
+            -Canvas $cnvLayoutPreview `
+            -LayoutPreview $LayoutPreview `
+            -Width $Dimensions.Width `
+            -Height $Dimensions.Height
+
+        Open-LayoutPreviewWindow `
+            -LayoutPreview $LayoutPreview `
+            -Width $Dimensions.Width `
+            -Height $Dimensions.Height `
+            -Columns $Grid.Columns
+
+        $txtStatus.Text =
+            "$($LayoutPreview.Count) posições calculadas em $($Dimensions.Width)x$($Dimensions.Height), com $($Grid.Columns) colunas."
+    }
+    catch
+    {
+        $txtStatus.Text =
+            $_.Exception.Message
+    }
+    finally
+    {
+        $btnLayout.IsEnabled =
+            $true
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Collapsed
+    }
+})
+
+#
+# Evento Aplicar
+#
+
+$btnApply.Add_Click({
+
+    try
+    {
+        if (-not $script:LastLayoutMapId -or $script:LastLayoutPreview.Count -eq 0)
+        {
+            $txtStatus.Text =
+                "Execute o Layout antes de aplicar."
+
+            return
+        }
+
+        $Confirmation =
+            [System.Windows.MessageBox]::Show(
+                "Aplicar as posições do preview ao mapa no Zabbix?",
+                "Confirmar aplicação",
+                [System.Windows.MessageBoxButton]::YesNo,
+                [System.Windows.MessageBoxImage]::Warning
+            )
+
+        if ($Confirmation -ne [System.Windows.MessageBoxResult]::Yes)
+        {
+            return
+        }
+
+        $btnApply.IsEnabled =
+            $false
+
+        $pgMain.Value =
+            0
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Visible
+
+        $txtStatus.Text =
+            "Aplicando posições no Zabbix..."
+
+        $Window.Dispatcher.Invoke(
+            [System.Action]{},
+            [System.Windows.Threading.DispatcherPriority]::Render
+        )
+
+        Set-MapLayout `
+            -SysmapId $script:LastLayoutMapId `
+            -LayoutPreview $script:LastLayoutPreview `
+            -ProgressAction {
+                param(
+                    [int]$Current,
+                    [int]$Total
+                )
+
+                if ($Total -gt 0)
+                {
+                    $Percent =
+                        ($Current / $Total) * 100
+                }
+                else
+                {
+                    $Percent =
+                        100
+                }
+
+                $Window.Dispatcher.Invoke(
+                    [System.Action]{
+                        $pgMain.Value = $Percent
+                    },
+                    [System.Windows.Threading.DispatcherPriority]::Render
+                )
+            } |
+            Out-Null
+
+        $txtStatus.Text =
+            "$($script:LastLayoutPreview.Count) posições aplicadas no Zabbix."
+    }
+    catch
+    {
+        $txtStatus.Text =
+            $_.Exception.Message
+    }
+    finally
+    {
+        $btnApply.IsEnabled =
+            $true
+
+        $pgMain.Visibility =
+            [System.Windows.Visibility]::Collapsed
+    }
+})
+
+#
+# Evento Sincronizar
+#
+
+$btnSync.Add_Click({
+    Show-SyncMapsWindow `
+        -Owner $Window
 })
 
 #

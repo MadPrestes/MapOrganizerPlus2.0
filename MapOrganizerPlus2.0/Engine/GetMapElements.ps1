@@ -34,6 +34,11 @@ function Get-MapElements
             ($Current / $Total) * 100
         )
 
+    if (-not $Selement.elements -or -not $Selement.elements[0].hostid)
+    {
+        continue
+    }
+
     $HostId =
         $Selement.elements[0].hostid
 

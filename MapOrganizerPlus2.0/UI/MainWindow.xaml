@@ -48,6 +48,19 @@
                 Foreground="#0f0f0f"
                 IsEditable="False"/>
 
+            <Label
+                Content="Colunas :"
+                Foreground="#D4D4D4"
+                VerticalAlignment="Center"
+                Margin="20,0,0,0"/>
+
+            <ComboBox
+                Name="cmbColumns"
+                Width="70"
+                Margin="10,0,0,0"
+                Foreground="#0f0f0f"
+                IsEditable="False"/>
+
         </StackPanel>
 
         <!-- Botões -->
@@ -81,6 +94,12 @@
                 Content="Aplicar"
                 Width="120"/>
 
+            <Button
+                Name="btnSync"
+                Content="Sincronizar"
+                Width="120"
+                Margin="10,0,0,0"/>
+
         </StackPanel>
 
         <!-- Status -->
@@ -112,8 +131,15 @@
 
         <!-- Preview -->
 
+        <Grid Grid.Row="5">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
 <DataGrid
-    Grid.Row="5"
+    Grid.Column="0"
     Name="gridPreview"
     AutoGenerateColumns="False"
     CanUserAddRows="False"
@@ -158,18 +184,55 @@
             Width="80"/>
 
         <DataGridTextColumn
-            Header="X"
-            Binding="{Binding X}"
+            Header="X atual"
+            Binding="{Binding XAtual}"
             Width="60"/>
 
         <DataGridTextColumn
-            Header="Y"
-            Binding="{Binding Y}"
+            Header="Y atual"
+            Binding="{Binding YAtual}"
+            Width="60"/>
+
+        <DataGridTextColumn
+            Header="X novo"
+            Binding="{Binding XNovo}"
+            Width="60"/>
+
+        <DataGridTextColumn
+            Header="Y novo"
+            Binding="{Binding YNovo}"
             Width="60"/>
 
     </DataGrid.Columns>
 
 </DataGrid>
+
+            <Border
+                Grid.Column="1"
+                Margin="10,0,0,0"
+                BorderBrush="#4E4E4E"
+                BorderThickness="1"
+                Background="#1E1E1E">
+
+                <ScrollViewer
+                    HorizontalScrollBarVisibility="Auto"
+                    VerticalScrollBarVisibility="Auto">
+
+                    <Viewbox
+                        Stretch="Uniform"
+                        StretchDirection="DownOnly">
+
+                        <Canvas
+                            Name="cnvLayoutPreview"
+                            Background="#252526"/>
+
+                    </Viewbox>
+
+                </ScrollViewer>
+
+            </Border>
+
+        </Grid>
     </Grid>
 
 </Window>
