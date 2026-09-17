@@ -1,4 +1,4 @@
-Add-Type -AssemblyName PresentationFramework
+﻿Add-Type -AssemblyName PresentationFramework
 
 #
 # Carrega XAML
@@ -147,6 +147,120 @@ function Update-LayoutPreview
         $Canvas.Children.Add($Card) |
             Out-Null
     }
+}
+
+function Get-MapProfileName
+{
+    param(
+        [Parameter(Mandatory)]
+        $Map
+    )
+
+    return ([string]$Map.name -replace '[^\w\-]', '_')
+}
+
+function Get-ProfileFixedElements
+{
+    param(
+        [Parameter(Mandatory)]
+        $Profile
+    )
+
+    if ($Profile -is [array] -and $Profile.Count -gt 1 -and $null -ne $Profile[1].FixedElements)
+    {
+        return @($Profile[1].FixedElements)
+    }
+
+    if ($null -ne $Profile.FixedElements)
+    {
+        return @($Profile.FixedElements)
+    }
+
+    return @()
+}
+
+function Show-FixedElementsWindow
+{
+    param(
+        [Parameter(Mandatory)]
+        [array]$Elements,
+
+        [array]$SelectedNames = @(),
+
+        [Parameter(Mandatory)]
+        [string]$ProfileName
+    )
+
+    $Dialog = New-Object System.Windows.Window
+    $Dialog.Title = "Elementos fixos"
+    $Dialog.Width = 520
+    $Dialog.Height = 650
+    $Dialog.Owner = $Window
+    $Dialog.WindowStartupLocation = "CenterOwner"
+    $Dialog.Background = $Global:MPOTheme.WindowBackground
+    $Dialog.Foreground = $Global:MPOTheme.Foreground
+
+    $Panel = New-Object System.Windows.Controls.DockPanel
+    $Panel.Margin = New-Object System.Windows.Thickness(12)
+
+    $Hint = New-Object System.Windows.Controls.TextBlock
+    $Hint.Text = "Selecione os elementos fixos. A ordem escolhida será usada no layout."
+    $Hint.TextWrapping = "Wrap"
+    $Hint.Margin = New-Object System.Windows.Thickness(0,0,0,8)
+    [System.Windows.Controls.DockPanel]::SetDock($Hint, "Top")
+    $Panel.Children.Add($Hint) | Out-Null
+
+    $List = New-Object System.Windows.Controls.ListBox
+    $List.SelectionMode = "Multiple"
+    $List.Background = $Global:MPOTheme.PanelBackground
+    $List.Foreground = $Global:MPOTheme.Foreground
+
+    foreach ($Element in ($Elements | Sort-Object Name))
+    {
+        $Item = New-Object System.Windows.Controls.ListBoxItem
+        $Item.Content = $Element.Name
+        $Item.Tag = $Element.Name
+        $Item.Foreground = $Global:MPOTheme.Foreground
+        $Item.Background = $Global:MPOTheme.PanelBackground
+        $Item.IsSelected = ($Element.Name -in $SelectedNames)
+        $List.Items.Add($Item) | Out-Null
+    }
+    $Panel.Children.Add($List) | Out-Null
+
+    $Buttons = New-Object System.Windows.Controls.StackPanel
+    $Buttons.Orientation = "Horizontal"
+    $Buttons.HorizontalAlignment = "Right"
+    $Buttons.Margin = New-Object System.Windows.Thickness(0,10,0,0)
+    [System.Windows.Controls.DockPanel]::SetDock($Buttons, "Bottom")
+
+    $Cancel = New-Object System.Windows.Controls.Button
+    $Cancel.Content = "Cancelar"
+    $Cancel.Width = 100
+    $Cancel.Margin = New-Object System.Windows.Thickness(0,0,8,0)
+
+    $Save = New-Object System.Windows.Controls.Button
+    $Save.Content = "Salvar"
+    $Save.Width = 100
+
+    $Buttons.Children.Add($Cancel) | Out-Null
+    $Buttons.Children.Add($Save) | Out-Null
+    $Panel.Children.Add($Buttons) | Out-Null
+
+    $Cancel.Add_Click({ $Dialog.DialogResult = $false })
+    $Save.Add_Click({
+        $Dialog.Tag = @($List.SelectedItems | ForEach-Object { $_.Tag })
+        $Dialog.DialogResult = $true
+    })
+
+    $Dialog.Content = $Panel
+
+    if ($Dialog.ShowDialog())
+    {
+        Save-Profile -ProfileName $ProfileName -FixedElements $Dialog.Tag | Out-Null
+        return @($Dialog.Tag)
+    }
+
+    return $null
 }
 
 function Open-LayoutPreviewWindow
@@ -391,6 +505,59 @@ $btnPreview.Add_Click({
 })
 
 #
+# Evento Elementos Fixos
+#
+
+$btnFixedElements.Add_Click({
+    try
+    {
+        $Map =
+            $cmbMaps.SelectedItem
+
+        if (-not $Map)
+        {
+            $txtStatus.Text =
+                "Nenhum mapa selecionado."
+
+            return
+        }
+
+        $MapId =
+            $cmbMaps.SelectedValue
+
+        $ProfileName =
+            Get-MapProfileName -Map $Map
+
+        $Profile =
+            Get-MapProfile -ProfileName $ProfileName
+
+        $Elements =
+            @(Get-MapElements -SysmapId $MapId)
+
+        $SelectedNames = @(
+            Get-ProfileFixedElements -Profile $Profile
+        )
+
+        $SavedNames =
+            Show-FixedElementsWindow `
+                -Elements $Elements `
+                -SelectedNames $SelectedNames `
+                -ProfileName $ProfileName
+
+        if ($null -ne $SavedNames)
+        {
+            $txtStatus.Text =
+                "$($SavedNames.Count) elementos fixos salvos para $($Map.name)."
+        }
+    }
+    catch
+    {
+        $txtStatus.Text =
+            $_.Exception.Message
+    }
+})
+
+#
 # Evento Layout
 #
 
@@ -456,8 +623,24 @@ $btnLayout.Add_Click({
                         },
                         [System.Windows.Threading.DispatcherPriority]::Render
                     )
-                } |
-                Sort-Object -Property Name)
+                })
+
+        $Map =
+            $cmbMaps.SelectedItem
+
+        $ProfileName =
+            Get-MapProfileName -Map $Map
+
+        $Profile =
+            Get-MapProfile -ProfileName $ProfileName
+
+        $FixedElements =
+            Get-ProfileFixedElements -Profile $Profile
+
+        $Elements =
+            @(Set-MapElementOrder `
+                -Elements $Elements `
+                -FixedElements $FixedElements)
 
         $Grid =
             New-LayoutGrid `

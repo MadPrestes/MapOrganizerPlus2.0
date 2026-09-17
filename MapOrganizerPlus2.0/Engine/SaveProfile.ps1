@@ -42,9 +42,20 @@ function Save-Profile
     # Atualiza fixos
     #
 
+    $UniqueFixedElements =
+        @()
+
+    foreach ($FixedElement in $FixedElements)
+    {
+        if ($FixedElement -and $FixedElement -notin $UniqueFixedElements)
+        {
+            $UniqueFixedElements +=
+                $FixedElement
+        }
+    }
+
     $Profile.FixedElements =
-        $FixedElements |
-        Sort-Object -Unique
+        $UniqueFixedElements
 
     #
     # Salva profile

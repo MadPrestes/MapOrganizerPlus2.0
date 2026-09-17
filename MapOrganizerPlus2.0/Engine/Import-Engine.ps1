@@ -12,6 +12,7 @@
 . "$PSScriptRoot\Get-GroupHosts.ps1"
 . "$PSScriptRoot\Compare-MapGroup.ps1"
 . "$PSScriptRoot\Add-GroupHostsToMap.ps1"
+. "$PSScriptRoot\Set-MapElementOrder.ps1"
 
 . "$PSScriptRoot\SortEngine.ps1"
 . "$PSScriptRoot\LayoutEngine.ps1"

@@ -1,4 +1,4 @@
-function Show-SyncMapsWindow
+﻿function Show-SyncMapsWindow
 {
     param(
         [Parameter(Mandatory)]

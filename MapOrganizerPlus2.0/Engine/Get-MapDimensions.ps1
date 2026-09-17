@@ -1,4 +1,4 @@
-function Get-MapDimensions
+﻿function Get-MapDimensions
 {
     [CmdletBinding()]
     param
