@@ -1,3 +1,44 @@
+# Evolução do Projeto
+
+## MapOrganizer 1.0
+
+Primeira versão do projeto.
+
+Objetivos:
+
+- Organização básica de elementos
+- Automação inicial
+- Provas de conceito
+
+Limitações:
+
+- Sem interface gráfica
+- Sem preview visual
+- Sem sincronização de grupos
+- Sem zoom
+- Sem auditoria
+
+---
+
+## MapOrganizer Plus 2.0
+
+Reescrita completa da plataforma.
+
+Principais melhorias:
+
+- Interface WPF
+- Tema escuro
+- Preview visual
+- Sistema de zoom
+- Layout Engine
+- Aplicação de layout
+- Sincronização Grupo → Mapa
+- Auditoria de elementos ausentes
+- Barra de progresso
+- Arquitetura modular
+
+
+
 # MPO2+ - Map Organizer Plus 2.0
 
 Ferramenta visual para organização, auditoria e sincronização de mapas Zabbix.
@@ -152,3 +193,18 @@ UI
 Otavio Lourega Prestes
 
 Map Organizer Plus 2.0
+
+
+## Histórico de Pesquisa e Desenvolvimento
+
+- Blood Preview Button™
+  Status: Arquivado
+
+- MPO2+ Epilepsy Edition™
+  Status: Terminantemente proibido
+
+- ProgressBar Fantasma™
+  Status: Resolvido
+
+- DataGrid dentro de DataGrid™
+  Status: Nunca esquecer
