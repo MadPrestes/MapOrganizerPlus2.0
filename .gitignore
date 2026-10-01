@@ -16,3 +16,6 @@ Config/Config.local.json
 # PowerShell
 *.tmp
 
+# Segredos e configurações locais
+.env
+

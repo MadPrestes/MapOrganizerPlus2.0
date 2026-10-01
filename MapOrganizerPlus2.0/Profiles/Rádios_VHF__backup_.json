@@ -1,16 +1,16 @@
 ﻿{
     "FixedElements":  [
-
+                          "ControlONE Sede"
                       ],
     "Sorting":  {
                     "Mode":  "Alphabetic"
                 },
     "Layout":  {
-                   "XStart":  101,
-                   "YStart":  51,
-                   "Columns":  9,
-                   "StepY":  100,
-                   "StepX":  200
+                   "XStart":  0,
+                   "YStart":  0,
+                   "Columns":  0,
+                   "StepY":  0,
+                   "StepX":  0
                },
     "ProfileName":  "Rádios_VHF__backup_"
 }
