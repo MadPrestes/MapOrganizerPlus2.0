@@ -4,17 +4,20 @@ function Get-GroupHosts
     param
     (
         [Parameter(Mandatory)]
-        [string]$GroupId
+        [string[]]$GroupId
     )
 
     $Response =
         Invoke-ZabbixApi `
             -Method "host.get" `
             -Params @{
-                output = "extend"
-                groupids = @($GroupId)
-                sortfield = "name"
-                sortorder = "ASC"
+                output           = "extend"
+                groupids         = @($GroupId)
+                selectInterfaces = "extend"
+                selectGroups    = "extend"
+                selectInventory = "extend"
+                sortfield       = "name"
+                sortorder       = "ASC"
             }
 
     return @(

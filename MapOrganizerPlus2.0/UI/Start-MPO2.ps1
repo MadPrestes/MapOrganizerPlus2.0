@@ -40,12 +40,17 @@ catch
 
 $cmbMaps            = $Window.FindName("cmbMaps")
 $cmbColumns         = $Window.FindName("cmbColumns")
+$btnGroupPicker     = $Window.FindName("btnGroupPicker")
+$popupGroups        = $Window.FindName("popupGroups")
+$pnlGroupChecks     = $Window.FindName("pnlGroupChecks")
+$brdGroupPicker     = $Window.FindName("brdGroupPicker")
 
 $btnPreview         = $Window.FindName("btnPreview")
 $btnLayout          = $Window.FindName("btnLayout")
 $btnFixedElements   = $Window.FindName("btnFixedElements")
 $btnApply           = $Window.FindName("btnApply")
 $btnSync            = $Window.FindName("btnSync")
+$btnInventory       = $Window.FindName("btnInventory")
 
 $txtStatus          = $Window.FindName("txtStatus")
 
@@ -56,6 +61,9 @@ $cnvLayoutPreview   = $Window.FindName("cnvLayoutPreview")
 
 $script:LastLayoutPreview = @()
 $script:LastLayoutMapId = $null
+$script:GroupCheckboxes = @()
+$script:btnGroupPicker = $btnGroupPicker
+$script:popupGroups = $popupGroups
 
 #
 # Theme
@@ -372,6 +380,9 @@ $Stopwatch =
 $Maps =
     Get-Maps
 
+$HostGroups =
+    Get-HostGroups
+
 $Stopwatch.Stop()
 
 $cmbMaps.ItemsSource =
@@ -390,7 +401,213 @@ $cmbColumns.SelectedItem =
     4
 
 $txtStatus.Text =
-    "$($Maps.Count) mapas carregados em $($Stopwatch.ElapsedMilliseconds) ms."
+    "$($Maps.Count) mapas e $($HostGroups.Count) grupos carregados em $($Stopwatch.ElapsedMilliseconds) ms."
+
+$brdGroupPicker.Background = $Global:MPOTheme.PanelBackground
+$brdGroupPicker.BorderBrush = $Global:MPOTheme.BorderColor
+
+function Update-GroupPickerLabel
+{
+    $Selected = @(
+        $script:GroupCheckboxes |
+            Where-Object { $_.IsChecked }
+    )
+
+    if (-not $Selected.Count)
+    {
+        $script:btnGroupPicker.Content = "Selecionar grupos"
+        return
+    }
+
+    $Names = @($Selected | ForEach-Object { $_.Tag.name })
+    $Label = $Names -join ", "
+    if ($Label.Length -gt 42)
+    {
+        $Label = "$($Names.Count) grupos selecionados"
+    }
+    $script:btnGroupPicker.Content = $Label
+}
+
+foreach ($HostGroup in $HostGroups)
+{
+    $CheckBox = New-Object System.Windows.Controls.CheckBox
+    $CheckBox.Content = $HostGroup.name
+    $CheckBox.Foreground = $Global:MPOTheme.Foreground
+    $CheckBox.Tag = $HostGroup
+    $CheckBox.Margin = New-Object System.Windows.Thickness(2,3,2,3)
+    $CheckBox.IsChecked = $false
+    $CheckBox.Add_Click({ Update-GroupPickerLabel })
+    $pnlGroupChecks.Children.Add($CheckBox) | Out-Null
+    $script:GroupCheckboxes += $CheckBox
+}
+
+$popupGroups.PlacementTarget = $btnGroupPicker
+$btnGroupPicker.Add_Click({
+    $script:popupGroups.IsOpen = -not $script:popupGroups.IsOpen
+})
+
+function Show-GroupInventoryWindow
+{
+    param(
+        [Parameter(Mandatory)]
+        [string]$GroupName,
+
+        [array]$Items = @()
+    )
+
+    $Dialog = New-Object System.Windows.Window
+    $Dialog.Title = "Inventário - $GroupName"
+    $Dialog.Width = 1100
+    $Dialog.Height = 650
+    $Dialog.Owner = $Window
+    $Dialog.WindowStartupLocation = "CenterOwner"
+    $Dialog.Background = $Global:MPOTheme.WindowBackground
+    $Dialog.Foreground = $Global:MPOTheme.Foreground
+
+    $Panel = New-Object System.Windows.Controls.DockPanel
+    $Panel.Margin = New-Object System.Windows.Thickness(12)
+
+    $Toolbar = New-Object System.Windows.Controls.DockPanel
+    $Toolbar.LastChildFill = $false
+    $Toolbar.Margin = New-Object System.Windows.Thickness(0,0,0,10)
+    [System.Windows.Controls.DockPanel]::SetDock($Toolbar, "Top")
+
+    $CountLabel = New-Object System.Windows.Controls.TextBlock
+    $CountLabel.Text = "$($Items.Count) hosts no grupo"
+    $CountLabel.VerticalAlignment = "Center"
+    $CountLabel.Foreground = $Global:MPOTheme.Foreground
+    [System.Windows.Controls.DockPanel]::SetDock($CountLabel, "Left")
+    $Toolbar.Children.Add($CountLabel) | Out-Null
+
+    $ExportButton = New-Object System.Windows.Controls.Button
+    $ExportButton.Content = "Exportar CSV"
+    $ExportButton.Width = 120
+    [System.Windows.Controls.DockPanel]::SetDock($ExportButton, "Right")
+    $Toolbar.Children.Add($ExportButton) | Out-Null
+    $Panel.Children.Add($Toolbar) | Out-Null
+
+    $Grid = New-Object System.Windows.Controls.DataGrid
+    $Grid.AutoGenerateColumns = $true
+    $Grid.IsReadOnly = $true
+    $Grid.CanUserAddRows = $false
+    $Grid.CanUserDeleteRows = $false
+    $Grid.SelectionMode = "Extended"
+    $Grid.ClipboardCopyMode = "IncludeHeader"
+    $Grid.ItemsSource = @($Items)
+    $Panel.Children.Add($Grid) | Out-Null
+
+    $ExportButton.Add_Click({
+        if (-not $Items.Count) { return }
+
+        $SafeGroupName = $GroupName -replace '[^\w.-]', '_'
+        $SaveDialog = New-Object Microsoft.Win32.SaveFileDialog
+        $SaveDialog.Filter = "CSV (*.csv)|*.csv"
+        $SaveDialog.DefaultExt = ".csv"
+        $SaveDialog.AddExtension = $true
+        $SaveDialog.FileName = "Inventario_$($SafeGroupName)_$(Get-Date -Format 'yyyy-MM-dd').csv"
+
+        if ($SaveDialog.ShowDialog($Dialog)) {
+            $Items |
+                Export-Csv `
+                    -Path $SaveDialog.FileName `
+                    -NoTypeInformation `
+                    -Encoding UTF8 `
+                    -Delimiter ";"
+        }
+    })
+
+    $Dialog.Content = $Panel
+    $Dialog.ShowDialog() | Out-Null
+}
+
+$btnInventory.Add_Click({
+    try
+    {
+        $SelectedGroups = @(
+            $script:GroupCheckboxes |
+                Where-Object { $_.IsChecked } |
+                ForEach-Object { $_.Tag }
+        )
+
+        if (-not $SelectedGroups.Count)
+        {
+            $txtStatus.Text = "Selecione pelo menos um grupo para consultar o inventário."
+            return
+        }
+
+        $GroupIds = @($SelectedGroups | ForEach-Object { [string]$_.groupid })
+        $GroupNames = @($SelectedGroups | ForEach-Object { $_.name })
+        $GroupFilter = $GroupNames -join ", "
+
+        $btnInventory.IsEnabled = $false
+        $btnInventory.Content = "Carregando..."
+        $txtStatus.Text = "Consultando hosts dos grupos '$GroupFilter'..."
+        $pgMain.IsIndeterminate = $true
+        $pgMain.Visibility = [System.Windows.Visibility]::Visible
+
+        $Hosts = @(
+            Get-GroupHosts -GroupId $GroupIds |
+                Sort-Object -Property hostid -Unique |
+                Sort-Object -Property name
+        )
+        $InventoryRows = @(
+            foreach ($HostRecord in $Hosts)
+            {
+                $Inventory = $HostRecord.inventory
+                $Interfaces = @($HostRecord.interfaces)
+                $IPs = @(
+                    $Interfaces |
+                        ForEach-Object {
+                            if ($_.useip -eq "1") { $_.ip }
+                            elseif ($_.dns) { $_.dns }
+                        } |
+                        Where-Object { $_ }
+                ) -join "; "
+                $GroupNames = @(
+                    $HostRecord.groups |
+                        ForEach-Object { $_.name } |
+                        Where-Object { $_ }
+                ) -join "; "
+
+                $OperatingSystem = $Inventory.os_full
+                if (-not $OperatingSystem) { $OperatingSystem = $Inventory.os }
+
+                $DeviceType = $Inventory.type_full
+                if (-not $DeviceType) { $DeviceType = $Inventory.type }
+
+                [PSCustomObject]@{
+                    Host                 = $HostRecord.host
+                    Nome                 = $HostRecord.name
+                    Status               = if ($HostRecord.status -eq "0") { "Habilitado" } else { "Desabilitado" }
+                    IPs                  = $IPs
+                    Grupos               = $GroupNames
+                    Tipo                 = $DeviceType
+                    Fabricante           = $Inventory.vendor
+                    Modelo               = $Inventory.model
+                    NumeroSerie          = $Inventory.serialno_a
+                    SistemaOperacional   = $OperatingSystem
+                    Localizacao          = $Inventory.location
+                    Contato              = $Inventory.contact
+                    InventarioAtivo      = $Inventory.asset_tag
+                }
+            }
+        )
+
+        Show-GroupInventoryWindow -GroupName $GroupFilter -Items $InventoryRows
+        $txtStatus.Text = "$($InventoryRows.Count) hosts consultados nos grupos '$GroupFilter'."
+    }
+    catch
+    {
+        $txtStatus.Text = "Falha ao consultar inventário: $($_.Exception.Message)"
+    }
+    finally
+    {
+        $btnInventory.IsEnabled = $true
+        $btnInventory.Content = "Inventário"
+        $pgMain.IsIndeterminate = $false
+        $pgMain.Visibility = [System.Windows.Visibility]::Collapsed
+    }
+})
 
 #
 # Evento Preview

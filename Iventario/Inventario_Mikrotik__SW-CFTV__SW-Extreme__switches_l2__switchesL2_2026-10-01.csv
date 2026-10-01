@@ -1,0 +1,549 @@
+﻿"Host";"Nome";"Status";"IPs";"Grupos";"Tipo";"Fabricante";"Modelo";"NumeroSerie";"SistemaOperacional";"Localizacao";"Contato";"InventarioAtivo"
+"abt-sw1";"abt-sw1";"Habilitado";"172.20.166.119";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"abt-sw2";"abt-sw2";"Habilitado";"172.20.166.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"abt-sw3";"abt-sw3";"Habilitado";"172.20.166.120";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"abt-sw4";"abt-sw4";"Habilitado";"172.20.166.248";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"ana-sw1";"ana-sw1";"Habilitado";"172.16.97.54";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ana-sw2";"ana-sw2";"Habilitado";"172.16.97.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ana-sw3";"ana-sw3";"Habilitado";"172.16.97.55";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ana-sw4";"ana-sw4";"Habilitado";"172.16.97.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ana-sw5";"ana-sw5";"Habilitado";"172.16.97.56";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ana-sw6";"ana-sw6";"Habilitado";"172.16.97.120";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"are-sw1";"are-sw1";"Habilitado";"172.20.174.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"are-sw2";"are-sw2";"Habilitado";"172.20.174.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"are-sw3";"are-sw3";"Habilitado";"172.20.174.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"are-sw4";"are-sw4";"Habilitado";"172.20.174.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw1";"atl2-sw1";"Habilitado";"172.16.87.109";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw2";"atl2-sw2";"Habilitado";"172.16.87.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw3";"atl2-sw3";"Habilitado";"172.16.87.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw4";"atl2-sw4";"Habilitado";"172.16.87.112";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw5";"atl2-sw5";"Habilitado";"172.16.87.113";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw6";"atl2-sw6";"Habilitado";"172.16.87.114";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw7";"atl2-sw7";"Habilitado";"172.16.87.115";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"atl2-sw8";"atl2-sw8";"Habilitado";"172.16.87.116";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"big-sw";"big-sw";"Habilitado";"172.16.77.241";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"big-sw3";"big-sw3";"Habilitado";"172.16.77.176";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw1";"blu-sw1";"Habilitado";"172.20.149.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw2";"blu-sw2";"Habilitado";"172.20.149.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw3";"blu-sw3";"Habilitado";"172.20.149.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw4";"blu-sw4";"Habilitado";"172.20.149.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw5";"blu-sw5";"Habilitado";"172.20.149.117";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"blu-sw6";"blu-sw6";"Habilitado";"172.20.149.245";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"can-swt1";"can-swt1";"Habilitado";"172.16.74.46";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"can-swt2";"can-swt2";"Habilitado";"172.16.74.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"can-swt3";"can-swt3";"Habilitado";"172.16.74.47";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"can-swt4";"can-swt4";"Habilitado";"172.16.74.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cax5-sw1";"cax5-sw1";"Habilitado";"172.16.79.46";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax5-sw2";"cax5-sw2";"Habilitado";"172.16.79.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax5-sw3";"cax5-sw3";"Habilitado";"172.16.79.48";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax5-sw4";"cax5-sw4";"Habilitado";"172.16.79.113";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax6-sw1";"cax6-sw1";"Habilitado";"172.20.136.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax6-sw2";"cax6-sw2";"Habilitado";"172.20.136.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax6-sw3";"cax6-sw3";"Habilitado";"172.20.136.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax6-sw4";"cax6-sw4";"Habilitado";"172.20.136.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw1";"cax-sw1";"Habilitado";"172.16.79.182";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw2";"cax-sw2";"Habilitado";"172.16.79.246";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw3";"cax-sw3";"Habilitado";"172.16.79.183";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw4";"cax-sw4";"Habilitado";"172.16.79.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw5";"cax-sw5";"Habilitado";"172.16.79.184";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw6";"cax-sw6";"Habilitado";"172.16.79.248";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw7";"cax-sw7";"Habilitado";"172.16.79.185";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cax-sw8";"cax-sw8";"Habilitado";"172.16.79.249";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cba-sw1";"cba-sw1";"Habilitado";"172.16.74.174";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cba-sw2";"cba-sw2";"Habilitado";"172.16.74.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cba-sw3";"cba-sw3";"Habilitado";"172.16.74.175";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cba-sw4";"cba-sw4";"Habilitado";"172.16.74.240";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cch-sw1";"cch-sw1";"Habilitado";"172.20.20.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw10";"cch-sw10";"Habilitado";"172.20.21.115";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw2";"cch-sw2";"Habilitado";"172.20.21.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw3";"cch-sw3";"Habilitado";"172.20.20.234";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw4";"cch-sw4";"Habilitado";"172.20.20.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw5";"cch-sw5";"Habilitado";"172.20.21.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cch-sw9";"cch-sw9";"Habilitado";"172.20.20.115";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cgr-sw1";"cgr-sw1";"Habilitado";"172.20.221.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cgr-sw2";"cgr-sw2";"Habilitado";"172.20.221.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cgr-swrgr";"cgr-swrgr";"Habilitado";"172.20.221.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cmo-sw1";"cmo-sw1";"Habilitado";"172.16.95.60";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cmo-sw2";"cmo-sw2";"Habilitado";"172.16.95.252";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cng2-sw1";"cng2-sw1";"Habilitado";"172.20.222.110";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cng2-sw2";"cng2-sw2";"Habilitado";"172.20.222.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cng3-sw1";"cng3-sw1";"Habilitado";"172.20.223.110";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"cng3-sw2";"cng3-sw2";"Habilitado";"172.20.223.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"coc-rack-sw1";"coc-rack-sw1";"Habilitado";"172.16.104.110";"CROI; Mapa_TLC_COSE_Sul; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"coc-rack-sw2";"coc-rack-sw2";"Habilitado";"172.16.106.111";"CROI; Mapa_TLC_COSE_Sul; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cose-rack1-sw1";"cose-rack1-sw1";"Habilitado";"10.240.18.251";"CROI; Mapa_TLC_COSE_Sul; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cose-rack2-sw1";"cose-rack2-sw1";"Habilitado";"10.240.18.252";"CROI; Mapa_TLC_COSE_Sul; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cta-sw3-p";"cta-sw3-p";"Habilitado";"172.20.160.50";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cta-sw3-s";"cta-sw3-s";"Habilitado";"172.20.160.179";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"cvo-sw1";"cvo-sw1";"Habilitado";"172.20.207.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"cvo-sw2";"cvo-sw2";"Habilitado";"172.20.207.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw1";"dou-sw1";"Habilitado";"172.20.176.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw2";"dou-sw2";"Habilitado";"172.20.176.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw3";"dou-sw3";"Habilitado";"172.20.176.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw4";"dou-sw4";"Habilitado";"172.20.176.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw5";"dou-sw5";"Habilitado";"172.20.176.117";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw6";"dou-sw6";"Habilitado";"172.20.176.245";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw7";"dou-sw7";"Habilitado";"172.20.176.116";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dou-sw8";"dou-sw8";"Habilitado";"172.20.176.244";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw1";"dro-sw1";"Habilitado";"172.16.99.180";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw2";"dro-sw2";"Habilitado";"172.16.99.245";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw3";"dro-sw3";"Habilitado";"172.16.99.182";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw4";"dro-sw4";"Habilitado";"172.16.99.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw5";"dro-sw5";"Habilitado";"172.16.99.183";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"dro-sw6";"dro-sw6";"Habilitado";"172.16.99.248";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"far-sw1";"far-sw1";"Habilitado";"172.20.229.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"far-sw2";"far-sw2";"Habilitado";"172.20.229.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"far-sw3";"far-sw3";"Habilitado";"172.20.229.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"far-sw4";"far-sw4";"Habilitado";"172.20.229.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw1";"fco-sw1";"Habilitado";"172.20.141.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw2";"fco-sw2";"Habilitado";"172.20.141.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw3";"fco-sw3";"Habilitado";"172.20.141.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw4";"fco-sw4";"Habilitado";"172.20.141.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw5";"fco-sw5";"Habilitado";"172.20.141.112";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fco-sw6";"fco-sw6";"Habilitado";"172.20.141.240";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"fha-sw1";"fha-sw1";"Habilitado";"172.20.131.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"fha-sw2";"fha-sw2";"Habilitado";"172.20.131.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"fha-sw3";"fha-sw3";"Habilitado";"172.20.131.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"fha-sw4";"fha-sw4";"Habilitado";"172.20.131.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"gas2-sw1";"gas2-sw1";"Habilitado";"172.20.167.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"gas2-sw2";"gas2-sw2";"Habilitado";"172.20.167.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"gra-sw1";"gra-sw1";"Habilitado";"172.16.75.182";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gra-sw2";"gra-sw2";"Habilitado";"172.16.75.246";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gra-sw3";"gra-sw3";"Habilitado";"172.16.75.183";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gra-sw4";"gra-sw4";"Habilitado";"172.16.75.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"grt-sw1";"grt-sw1";"Habilitado";"172.20.142.119";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"grt-sw2";"grt-sw2";"Habilitado";"172.20.142.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gua3-sw1";"gua3-sw1";"Habilitado";"172.20.191.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gua3-sw2";"gua3-sw2";"Habilitado";"172.20.191.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gua3-sw3";"gua3-sw3";"Habilitado";"172.20.191.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"gua-sw1";"gua-sw1";"Habilitado";"172.20.208.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"gua-sw2";"gua-sw2";"Habilitado";"172.20.208.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"guo-sw1";"guo-sw1";"Habilitado";"172.20.197.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"guo-sw2";"guo-sw2";"Habilitado";"172.20.197.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"guo-sw3";"guo-sw3";"Habilitado";"172.20.197.120";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"guo-sw4";"guo-sw4";"Habilitado";"172.20.197.248";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"iju2-sw1";"iju2-sw1";"Habilitado";"172.20.137.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"iju2-sw2";"iju2-sw2";"Habilitado";"172.20.137.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"iju2-sw3";"iju2-sw3";"Habilitado";"172.20.137.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"iju2-sw4";"iju2-sw4";"Habilitado";"172.20.137.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"irn-sw1";"irn-sw1";"Habilitado";"172.20.198.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"irn-sw2";"irn-sw2";"Habilitado";"172.20.198.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"irn-sw3";"irn-sw3";"Habilitado";"172.20.198.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"irn-sw4";"irn-sw4";"Habilitado";"172.20.198.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw1";"itj-sw1";"Habilitado";"172.16.82.182";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw2";"itj-sw2";"Habilitado";"172.16.82.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw3";"itj-sw3";"Habilitado";"172.16.82.183";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw4";"itj-sw4";"Habilitado";"172.16.82.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw5";"itj-sw5";"Habilitado";"172.16.82.184";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"itj-sw6";"itj-sw6";"Habilitado";"172.16.82.248";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw1";"ivi2-sw1";"Habilitado";"172.20.168.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw2";"ivi2-sw2";"Habilitado";"172.20.168.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw3";"ivi2-sw3";"Habilitado";"172.20.168.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw4";"ivi2-sw4";"Habilitado";"172.20.168.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw5";"ivi2-sw5";"Habilitado";"172.20.168.117";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw6";"ivi2-sw6";"Habilitado";"172.20.168.245";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw7";"ivi2-sw7";"Habilitado";"172.20.168.116";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivi2-sw8";"ivi2-sw8";"Habilitado";"172.20.168.244";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivp-sw1";"ivp-sw1";"Habilitado";"172.20.217.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ivp-sw2";"ivp-sw2";"Habilitado";"172.20.217.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw1";"jla-sw1";"Habilitado";"172.20.216.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw2";"jla-sw2";"Habilitado";"172.20.216.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw3";"jla-sw3";"Habilitado";"172.16.85.46";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw4";"jla-sw4";"Habilitado";"172.16.85.175";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw5";"jla-sw5";"Habilitado";"172.16.85.48";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jla-sw6";"jla-sw6";"Habilitado";"172.16.85.177";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jlb-sw3";"jlb-sw3";"Habilitado";"172.20.212.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jlb-sw4";"jlb-sw4";"Habilitado";"172.20.212.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jlb-sw5";"jlb-sw5";"Habilitado";"172.20.212.112";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"jlb-sw6";"jlb-sw6";"Habilitado";"172.20.212.240";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw1";"joi-sw1";"Habilitado";"172.16.86.174";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw1novo";"joi-sw1novo";"Habilitado";"172.20.202.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw2";"joi-sw2";"Habilitado";"172.16.86.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw2novo";"joi-sw2novo";"Habilitado";"172.20.202.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw3";"joi-sw3";"Habilitado";"172.16.86.176";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw3novo";"joi-sw3novo";"Habilitado";"172.20.202.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw4";"joi-sw4";"Habilitado";"172.20.202.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw5";"joi-sw5";"Habilitado";"172.20.202.112";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"joi-sw6";"joi-sw6";"Habilitado";"172.20.202.240";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lgr-sw1";"lgr-sw1";"Habilitado";"172.20.211.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"lgr-sw2";"lgr-sw2";"Habilitado";"172.20.211.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"lgr-sw3";"lgr-sw3";"Habilitado";"172.20.211.55";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"lgr-sw4";"lgr-sw4";"Habilitado";"172.20.211.183";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"lgr-sw5";"lgr-sw5";"Habilitado";"172.20.211.58";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"lgr-sw6";"lgr-sw6";"Habilitado";"172.20.211.186";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"liv3-sw1";"liv3-sw1";"Habilitado";"172.20.224.110";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"liv3-sw2";"liv3-sw2";"Habilitado";"172.20.224.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"lna-sw1";"lna-sw1";"Habilitado";"172.20.157.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lna-sw2";"lna-sw2";"Habilitado";"172.20.157.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lns-sw1";"lns-sw1";"Habilitado";"172.20.200.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lns-sw2";"lns-sw2";"Habilitado";"172.20.200.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lon-sw1";"lon-sw1";"Habilitado";"172.20.177.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lon-sw2";"lon-sw2";"Habilitado";"172.20.177.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lon-sw3";"lon-sw3";"Habilitado";"172.20.177.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"lon-sw4";"lon-sw4";"Habilitado";"172.20.177.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mbr3-sw1";"mbr3-sw1";"Habilitado";"172.20.219.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mbr3-sw2";"mbr3-sw2";"Habilitado";"172.20.219.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mbr3-sw3";"mbr3-sw3";"Habilitado";"172.20.219.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mbr3-sw4";"mbr3-sw4";"Habilitado";"172.20.219.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mbr-sw1";"mbr-sw1";"Habilitado";"172.20.187.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mbr-sw2";"mbr-sw2";"Habilitado";"172.20.187.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mch-sw1";"mch-sw1";"Habilitado";"172.16.73.117";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mch-sw2";"mch-sw2";"Habilitado";"172.16.73.245";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mch-sw3";"mch-sw3";"Habilitado";"172.16.73.116";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mcl-sw1";"mcl-sw1";"Habilitado";"172.16.98.46";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mcl-sw2";"mcl-sw2";"Habilitado";"172.16.98.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mcl-sw3";"mcl-sw3";"Habilitado";"172.16.98.48";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mcl-sw4";"mcl-sw4";"Habilitado";"172.16.98.113";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mim2-sw1";"mim2-sw1";"Habilitado";"172.20.218.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mim2-sw2";"mim2-sw2";"Habilitado";"172.20.218.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mim2-sw3";"mim2-sw3";"Habilitado";"172.20.218.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mim-sw1";"mim-sw1";"Habilitado";"172.20.143.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mim-sw2";"mim-sw2";"Habilitado";"172.20.143.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"mis-sw1";"mis-sw1";"Habilitado";"172.20.209.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mis-sw2";"mis-sw2";"Habilitado";"172.20.209.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mis-sw3";"mis-sw3";"Habilitado";"172.20.209.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mis-sw4";"mis-sw4";"Habilitado";"172.20.209.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mro2-sw1";"mro2-sw1";"Habilitado";"172.20.155.122";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mro2-sw13";"mro2-sw13";"Habilitado";"172.20.155.117";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mro2-sw14";"mro2-sw14";"Habilitado";"172.20.155.245";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"mro2-sw2";"mro2-sw2";"Habilitado";"172.20.155.250";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npe2-sw1";"npe2-sw1";"Habilitado";"172.20.138.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npe2-sw2";"npe2-sw2";"Habilitado";"172.20.138.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npe2-sw3";"npe2-sw3";"Habilitado";"172.20.138.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npe2-sw4";"npe2-sw4";"Habilitado";"172.20.138.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npr2-sw1";"npr2-sw1";"Habilitado";"172.20.171.119";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"npr2-sw2";"npr2-sw2";"Habilitado";"172.20.171.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-sw1";"nsr-sw1";"Habilitado";"172.20.150.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-sw2";"nsr-sw2";"Habilitado";"172.20.150.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-sw3";"nsr-sw3";"Habilitado";"172.20.150.111";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-sw4";"nsr-sw4";"Habilitado";"172.20.150.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-swa";"nsr-swa";"Habilitado";"172.20.150.112";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-swb";"nsr-swb";"Habilitado";"172.20.150.241";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"nsr-swc";"nsr-swc";"Habilitado";"172.20.150.242";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"oso2-sw1";"oso2-sw1";"Habilitado";"172.16.87.238";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"oso2-sw2";"oso2-sw2";"Habilitado";"172.16.87.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pal-sw1";"pal-sw1";"Habilitado";"172.20.201.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw2";"pal-sw2";"Habilitado";"172.20.201.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw3";"pal-sw3";"Habilitado";"172.20.201.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw4";"pal-sw4";"Habilitado";"172.20.201.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw5";"pal-sw5";"Habilitado";"172.20.201.112";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw6";"pal-sw6";"Habilitado";"172.20.201.240";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw7";"pal-sw7";"Habilitado";"172.20.201.113";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pal-sw8";"pal-sw8";"Habilitado";"172.20.201.241";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pfu-sw1";"pfu-sw1";"Habilitado";"172.16.71.110";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pfu-sw2";"pfu-sw2";"Habilitado";"172.16.71.239";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pgr-sw1";"pgr-sw1";"Habilitado";"172.20.199.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pgr-sw2";"pgr-sw2";"Habilitado";"172.20.199.247";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pgr-sw3";"pgr-sw3";"Habilitado";"172.20.199.118";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pgr-sw4";"pgr-sw4";"Habilitado";"172.20.199.246";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"pin2-sw1";"pin2-sw1";"Habilitado";"172.20.169.119";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw10";"pin2-sw10";"Habilitado";"172.20.169.243";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw2";"pin2-sw2";"Habilitado";"172.20.169.247";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw3";"pin2-sw3";"Habilitado";"172.20.169.118";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw4";"pin2-sw4";"Habilitado";"172.20.169.246";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw5";"pin2-sw5";"Habilitado";"172.20.169.117";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw6";"pin2-sw6";"Habilitado";"172.20.169.245";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw7";"pin2-sw7";"Habilitado";"172.20.169.116";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw8";"pin2-sw8";"Habilitado";"172.20.169.244";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pin2-sw9";"pin2-sw9";"Habilitado";"172.20.169.115";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pme-eb-sw1p";"pme-eb-sw1p";"Habilitado";"172.20.161.120";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pme-eb-sw1s";"pme-eb-sw1s";"Habilitado";"172.20.161.248";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw1";"pno-sw1";"Habilitado";"172.20.153.100";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw10";"pno-sw10";"Habilitado";"172.20.153.236";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw11";"pno-sw11";"Habilitado";"172.20.153.114";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw12";"pno-sw12";"Habilitado";"172.20.153.235";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw2";"pno-sw2";"Habilitado";"172.20.153.228";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw3";"pno-sw3";"Habilitado";"172.20.153.101";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw4";"pno-sw4";"Habilitado";"172.20.153.229";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"pno-sw9";"pno-sw9";"Habilitado";"172.20.153.115";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"sdi-sw1";"sdi-sw1";"Habilitado";"172.20.210.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sdi-sw2";"sdi-sw2";"Habilitado";"172.20.210.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw1";"sid-sw1";"Habilitado";"172.20.151.110";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw2";"sid-sw2";"Habilitado";"172.20.151.238";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw3";"sid-sw3";"Habilitado";"172.20.151.111";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw4";"sid-sw4";"Habilitado";"172.20.151.239";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw5";"sid-sw5";"Habilitado";"172.20.151.112";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw6";"sid-sw6";"Habilitado";"172.20.151.240";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw7";"sid-sw7";"Habilitado";"172.20.151.113";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sid-sw8";"sid-sw8";"Habilitado";"172.20.151.241";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sos-sw1";"sos-sw1";"Habilitado";"172.16.76.124";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"sos-sw2";"sos-sw2";"Habilitado";"172.16.76.252";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"spa2-sw1";"spa2-sw1";"Habilitado";"172.20.152.91";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"spa2-sw2";"spa2-sw2";"Habilitado";"172.20.152.191";"CROI; Mapa_TLC_COSE_Sul; switchesL2; switches_l2";;;;;;;;
+"ssa-sw1";"ssa-sw1";"Habilitado";"172.16.70.55";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"ssa-sw2";"ssa-sw2";"Habilitado";"172.16.70.119";"CROI; Mapa_TLC_COSE_Norte; switchesL2; switches_l2";;;;;;;;
+"SW3-ABT";"SW3-ABT";"Habilitado";"10.6.54.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-ALE";"SW3-ALE";"Habilitado";"10.6.78.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460-24t";"1345N-40495";"16.2.5.4";"ALEGRETE";"EG1194287";""
+"SW3-ANA";"SW3-ANA";"Habilitado";"10.6.91.1; 10.16.91.2";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24t";"1148G-80320";"15.3.5.2";"ANASTACIO";"EG1191361";""
+"SW3-ARE";"SW3-ARE";"Habilitado";"10.6.33.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450a-24t";"0946G-00108";"15.3.5.2";"AREIA";"EG1188367";""
+"SW3-ARE-AUX";"SW3-ARE-AUX";"Habilitado";"10.6.33.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0946G-00108";"15.3.5.2";"AREIA";"EG1188367";""
+"SW3-ARE-Escr";"SW3-ARE-Escr";"Habilitado";"10.6.33.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"0946G-00108";"15.3.5.2";"AREIA";"EG1188367";""
+"SW3-ASS";"SW3-ASS";"Habilitado";"10.6.110.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-24tdc";"0947G-81285";"16.2.5.4";"ABDON_BATISTA";"EG1188362";""
+"SW3-ATL2";"SW3-ATL2";"Habilitado";"10.6.94.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"2015G-02111";"30.7.1.1";"ATLANTIDA";"EG188000019024";""
+"SW3-BGE";"SW3-BGE";"Habilitado";"10.6.108.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1538N-43856";"16.2.5.4";"BAGE";"EG1196952";""
+"SW3-BIG";"SW3-BIG";"Habilitado";"10.6.29.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-48p";"1042G-80109";"15.3.5.2";"BIGUACU";"EG1189377";""
+"SW3-BLU";"SW3-BLU";"Habilitado";"10.6.65.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1127G-80248";"16.2.5.4";"BLUMENAU";"EG1191486";""
+"SW3-BLU-Comunicacao";"SW3-BLU-Comunicacao";"Habilitado";"10.6.65.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-24p";"1127G-80248";"15.3.5.2";"BLUMENAU";"EG1191486";""
+"SW3-BRU";"SW3-BRU";"Habilitado";"10.6.24.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X440-24tdc";"1443N-40111";"16.2.5.4";"BAURU";"EG1196937";""
+"SW3-CAM3";"SW3-CAM3";"Habilitado";"10.6.47.1";"SW-Extreme; Corporativa";"";"";"X440-24p";"1241G-00510";"16.1.3.6";"CAMAQUA3";"SEM_EG-TSBE";""
+"SW3-CAN";"SW3-CAN";"Habilitado";"10.6.61.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-24p";"1452N-40021";"16.2.5.4";"Canoinhas";"EG1197779";""
+"SW3-CAP_JLB";"SW3-CAP_JLB";"Habilitado";"10.6.41.1";"Discovered hosts; SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X450a-24t";"0946G-00107";"15.3.5.2";"CAPIVARI";"EG1188359";""
+"SW3-CAP-Comunicacao";"SW3-CAP-Comunicacao";"Habilitado";"10.6.41.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-CAX";"SW3-CAX";"Habilitado";"10.6.70.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X460-24t";"1128G-80447";"16.2.5.4";"CAXIAS";"EG1191489";""
+"SW3-CAX6";"SW3-CAX6";"Habilitado";"10.6.85.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1909N-43202";"30.7.1.1";"GUARITA";"EG188000018568";""
+"10.6.19.1";"SW3-CBA";"Habilitado";"10.6.19.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"1127G-80247";"16.2.5.4";"CURITIBA";"EG1191479";""
+"10.6.19.10";"SW3-CBA-Central";"Habilitado";"10.6.19.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-24p";"";"15.3.5.2";"CURITIBA";"EG1191479";""
+"10.6.19.5";"SW3-CBA-Central2";"Habilitado";"10.6.19.5";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80247";"15.3.5.2";"CURITIBA";"EG1191479";""
+"SW3-CBA-Convivencia";"SW3-CBA-Convivencia";"Habilitado";"10.6.19.4";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-CBA-Oficina";"SW3-CBA-Oficina";"Habilitado";"10.6.19.3";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"10.6.68.1";"SW3-CCH";"Habilitado";"10.6.68.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-48p";"1042G-80113";"15.3.5.2";"CERRO_CHATO";"EG1189379";""
+"SW3-CGR";"SW3-CGR";"Habilitado";"10.6.16.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"1127G-80238";"16.2.5.4";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CGR-ADM";"SW3-CGR-ADM";"Habilitado";"10.6.16.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80238";"15.3.5.2";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CGR-Manut";"SW3-CGR-Manut";"Habilitado";"10.6.16.8";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80238";"15.3.5.2";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CHA";"SW3-CHA";"Habilitado";"10.6.73.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1127G-80238";"30.7.1.1";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CHA_sala_intermed";"SW3-CHA_sala_intermed";"Habilitado";"10.6.73.10";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80238";"15.3.5.2";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CHA_sala_manut";"SW3-CHA_sala_manut";"Habilitado";"10.6.73.11";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1127G-80238";"30.7.1.1";"CAMPO_GRANDE";"EG1191482";""
+"SW3-CMO";"SW3-CMO";"Habilitado";"10.6.62.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"1129G-80253";"16.2.5.4";"CAMPO_MOURAO";"EG1190529";""
+"SW3-CNE";"SW3-CNE";"Habilitado";"10.6.125.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1909N-43202";"30.7.1.1";"GUARITA";"EG188000018568";""
+"SW3-CNG2";"SW3-CNG2";"Habilitado";"10.6.96.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-CNG3";"SW3-CNG3";"Habilitado";"10.6.97.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-CNO";"SW3-CNO";"Habilitado";"10.6.64.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1538N-43844";"16.1.3.6";"CAMPOS_NOVOS";"EG1198952";""
+"SW3-CRLIV";"SW3-CRLIV";"Habilitado";"10.6.60.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X250e-48p";"1236G-02462";"15.3.5.2";"LIVRAMENTO";"EG1194272";""
+"SW3-CSE";"SW3-CSE";"Habilitado";"10.6.130.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"";"";"";"Chapecoense";"";""
+"SW3-CTA";"SW3-CTA";"Habilitado";"10.6.49.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-24p";"1349N-40874";"16.2.5.4";"CANDIOTA";"SEM-EG";""
+"SW3-CVO";"SW3-CVO";"Habilitado";"10.6.121.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"2015G-02111";"32.2.1.8";"ATLANTIDA";"EG188000019024";""
+"SW3-DOU";"SW3-DOU";"Habilitado";"10.6.42.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"1127G-80237";"16.2.5.4";"DOURADOS";"EG1191481";""
+"SW3-DOU-AUX";"SW3-DOU-AUX";"Habilitado";"10.6.42.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80237";"15.3.5.2";"DOURADOS";"EG1191481";""
+"SW3-DPO";"SW3-DPO";"Habilitado";"10.6.107.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X440-24tdc";"1430N-40198";"16.2.5.4";"DOM_PEDRITO";"EG1196952";""
+"SW3-DRO-1";"SW3-DRO-1";"Habilitado";"10.6.30.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1538N-43857";"16.2.5.4";"";"";""
+"SW3-DRO-2";"SW3-DRO-2";"Habilitado";"10.6.30.20";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1538N-43857";"16.2.5.4";"";"";""
+"SW3-DRO-AUX";"SW3-DRO-AUX";"Habilitado";"10.6.30.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1538N-43857";"15.3.5.2";"";"";""
+"SW3-FAR";"SW3-FAR";"Habilitado";"10.6.36.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X460-24t";"1129G-80243";"16.2.5.4";"FARROUPILHA";"EG1191484";""
+"SW3-FAR-Escr";"SW3-FAR-Escr";"Habilitado";"192.168.36.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1129G-80243";"15.3.5.2";"FARROUPILHA";"EG1191484";""
+"SW3-FCO";"SW3-FCO";"Habilitado";"10.6.39.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"1146G-81861";"15.3.5.2";"FOZ_CHAPECO";"EG1191340";""
+"SW3-FHA";"SW3-FHA";"Habilitado";"10.6.57.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-12p-10G4";"1828N-41268";"32.2.1.8";"Forquilhinha";"EG1200189";""
+"SW3-GAR1";"SW3-GAR1";"Habilitado";"10.6.22.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1909N-40333";"32.2.1.8";"Garibaldi";"EG188000018570";""
+"SW3-GAS2";"SW3-GAS2";"Habilitado";"10.6.84.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-24p";"1241G-00509";"16.2.5.4";"GASPAR";"RD1600117";""
+"SW3-GRA";"SW3-GRA";"Habilitado";"10.6.27.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"1538N-42198";"16.2.5.4";"GRAVATAI";"EG1198953";""
+"SW3-GRA3";"SW3-GRA3";"Habilitado";"10.6.28.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X250e-24p";"0946G-81724";"15.3.5.2";"Gravatai_3";"EG1188376";""
+"SW3-GRT";"SW3-GRT";"Habilitado";"10.6.45.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1909N-43202";"32.2.1.8";"GUARITA";"EG188000018568";""
+"SW3-GUA";"SW3-GUA";"Habilitado";"10.6.120.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"0947G-81285";"16.2.5.4";"ABDON_BATISTA";"EG1188362";""
+"SW3-GUA3";"SW3-GUA3";"Habilitado";"10.6.90.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"0947G-81285";"32.2.1.8";"ABDON_BATISTA";"EG1188362";""
+"SW3-GUO";"SW3-GUO";"Habilitado";"10.6.112.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24p-G4";"1538N-43856";"22.6.1.4";"BAGE";"EG1196952";""
+"SW3-IJU2";"SW3-IJU2";"Habilitado";"10.6.59.10";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"1345N-40517";"15.3.5.2";"IJUI2";"EG1194293";""
+"SW3-IJU2-CLI";"SW3-IJU2-CLI";"Habilitado";"10.6.59.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460-24t";"1345N-40517";"15.2.3.2";"IJUI2";"EG1194293";""
+"SW3-IRN";"SW3-IRN";"Habilitado";"10.6.113.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24p-G4";"2015G-02111";"32.2.1.8";"ATLANTIDA";"EG188000019024";""
+"SW3-ITJ";"SW3-ITJ";"Habilitado";"10.6.71.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1332G-80025";"15.3.5.2";"ITAJAI";"EG1194251";""
+"SW3-ITR";"SW3-ITR";"Habilitado";"10.6.55.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450a-24t";"0932G-80044";"15.3.5.2";"ITARARE";"EG1189362";""
+"SW3-IVI2";"SW3-IVI2";"Habilitado";"10.6.20.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X440-24p";"1452N-40002";"16.2.5.4";"IVINHEMA2";"Fornecimento IVI2";""
+"SW3-IVP";"SW3-IVP";"Habilitado";"10.6.37.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X480-48t";"1044G-01228";"15.6.3.1";"IVAIPORA";"Sem_EG";""
+"SW3-JAS";"SW3-JAS";"Habilitado";"10.3.123.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"5520-48W";"1148G-80320";"32.3.1.11";"ANASTACIO";"EG1191361";""
+"SW3-JNO";"SW3-JNO";"Habilitado";"10.6.31.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0947G-81286";"15.3.5.2";"Joinville_Norte";"EG1188371";""
+"SW3-JOI";"SW3-JOI";"Habilitado";"10.6.34.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1127G-80242";"16.1.3.6";"JOINVILLE";"EG1191485";""
+"SW3-JOI-ESCRI";"SW3-JOI-ESCRI";"Habilitado";"10.6.34.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1127G-80242";"15.3.5.2";"JOINVILLE";"EG1191485";""
+"SW3-JSU";"SW3-JSU";"Habilitado";"10.6.124.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"5520-48W";"1148G-80320";"32.3.1.11";"ANASTACIO";"EG1191361";""
+"SW3-LAR";"SW3-LAR";"Habilitado";"10.6.40.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-12p-10G4";"1828N-41388";"32.2.1.8";"LARANJEIRAS";"EG1200194";""
+"SW3-LAR-Escritorio";"SW3-LAR-Escritorio";"Habilitado";"10.6.40.9";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1828N-41388";"32.2.1.8";"LARANJEIRAS";"EG1200194";""
+"SW3-LGR";"SW3-LGR";"Habilitado";"10.6.80.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-24p";"0947G-81458";"15.3.5.2";"LAGEADO_GRANDE";"EG1188374";""
+"SW3-LIV2";"SW3-LIV2";"Habilitado";"10.6.69.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460-24t";"1345N-40507";"16.2.5.4";"LIVRAMENTO-SE";"EG1194291";""
+"SW3-LIV3";"SW3-LIV3";"Habilitado";"10.6.79.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-LNS";"SW3-LNS";"Habilitado";"10.6.117.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"2121N-41070";"30.5.1.15";"LONDRINA-SUL";"SEM_EG";""
+"SW3-LON";"SW3-LON";"Habilitado";"10.6.32.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";"";"";"X460-24t";"1345N-40494";"16.2.5.4";"LONDRINA";"EG1194288";""
+"SW3-LON-AUX";"SW3-LON-AUX";"Habilitado";"10.6.32.10";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS";"";"";"X250e-48p";"1345N-40494";"15.3.5.2";"LONDRINA";"EG1194288";""
+"SW3-MBR";"SW3-MBR";"Habilitado";"10.6.126.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-G4";"1129G-80254";"30.7.1.1";"";"";""
+"SW3-MBR3";"SW3-MBR3";"Habilitado";"10.6.119.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460G2-24t-G4";"1129G-80254";"32.2.1.8";"";"";""
+"SW3-MCH";"SW3-MCH";"Habilitado";"10.6.82.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"2015G-02102";"32.2.1.8";"MACHADINHO";"EG188000019019";""
+"SW3-MCL";"SW3-MCL";"Habilitado";"10.6.83.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440G2-24p-10G4";"1909N-40526";"32.2.1.8";"MONTE CLARO";"EG188000018572";""
+"SW3-MIM2";"SW3-MIM2";"Habilitado";"10.6.129.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-MIS";"SW3-MIS";"Habilitado";"10.6.75.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";"";"";"X440-24tdc";"1443N-40102";"16.2.5.4";"MISSOES";"EG1196974";""
+"SW3-MRO2";"SW3-MRO2";"Habilitado";"10.6.50.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-NPR2";"SW3-NPR2";"Habilitado";"10.6.99.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-NSR";"SW3-NSR";"Habilitado";"10.6.89.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-OSO2";"SW3-OSO2";"Habilitado";"10.6.93.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PAL";"SW3-PAL";"Habilitado";"10.6.43.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PEL3";"SW3-PEL3";"Habilitado";"10.6.111.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-PFU";"SW3-PFU";"Habilitado";"10.6.77.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";;;;;;;;
+"SW3-PFU-CLI";"SW3-PFU-CLI";"Habilitado";"10.6.77.2";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460-24t";"1127G-80235";"16.1.3.6";"";"";""
+"SW3-PGR";"SW3-PGR";"Habilitado";"10.6.114.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PHM";"SW3-PHM";"Habilitado";"10.6.109.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-PIN2";"SW3-PIN2";"Habilitado";"10.6.105.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PLT";"SW3-PLT";"Habilitado";"10.6.103.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-PME-Ebras";"SW3-PME-Ebras";"Habilitado";"10.6.98.2";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PME-Esul";"SW3-PME-Esul";"Habilitado";"10.6.98.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-PNO";"SW3-PNO";"Habilitado";"10.6.53.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-PNO460";"SW3-PNO460";"Habilitado";"10.6.53.2";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-POA-PTT-RNP";"SW3-POA-PTT-RNP";"Habilitado";"10.6.27.2";"SW-Extreme; Mapa_Atendimento_Clientes";"";"";"X460G2-24t-10G4";"";"16.2.5.4";"";"";""
+"SW3-QUI";"SW3-QUI";"Habilitado";"10.6.51.1";"SW-Extreme; Corporativa; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-RGR-ABT-20.166.125";"SW3-RGR-ABT-20.166.125";"Habilitado";"172.20.166.125";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-ARE-16.70.253";"SW3-RGR-ARE-16.70.253";"Habilitado";"172.16.70.253";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-ASS-68.254";"SW3-RGR-ASS-68.254";"Habilitado";"10.240.68.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-BIG-19.16.5";"SW3-RGR-BIG-19.16.5";"Habilitado";"172.19.16.5";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-BIG-19.16.6";"SW3-RGR-BIG-19.16.6";"Habilitado";"172.19.16.6";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-BLU-24.254";"SW3-RGR-BLU-24.254";"Habilitado";"10.240.24.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CAN-25.254";"SW3-RGR-CAN-25.254";"Habilitado";"10.240.25.254";"SW-Extreme; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CAX-26.254";"SW3-RGR-CAX-26.254";"Habilitado";"10.240.26.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CBA-32.186";"SW3-RGR-CBA-32.186";"Habilitado";"172.19.32.186";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CCH-75.254";"SW3-RGR-CCH-75.254";"Habilitado";"10.240.75.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CMO-31.254";"SW3-RGR-CMO-31.254";"Habilitado";"10.240.31.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-CNO-32.254";"SW3-RGR-CNO-32.254";"Habilitado";"10.240.32.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-DRO-34.254";"SW3-RGR-DRO-34.254";"Habilitado";"10.240.34.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-FCO-20.141.125";"SW3-RGR-FCO-20.141.125";"Habilitado";"172.20.141.125";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR";;;;;;;;
+"SW3-RGR-GAS2-20.167.125";"SW3-RGR-GAS2-20.167.125";"Habilitado";"172.20.167.125";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-GRA3-62.254";"SW3-RGR-GRA3-62.254";"Habilitado";"10.240.62.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-GRA-38.254";"SW3-RGR-GRA-38.254";"Habilitado";"10.240.38.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-IJU2-20.137.125";"SW3-RGR-IJU2-20.137.125";"Habilitado";"172.20.137.125";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR";;;;;;;;
+"SW3-RGR-ITJ-40.254";"SW3-RGR-ITJ-40.254";"Habilitado";"10.240.40.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-IVP-41.254";"SW3-RGR-IVP-41.254";"Habilitado";"10.240.41.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR; Mapa_SMSF_Fasorial";;;;;;;;
+"SW3-RGR-JLB-43.254";"SW3-RGR-JLB-43.254";"Habilitado";"10.240.43.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-JNO-67.254";"SW3-RGR-JNO-67.254";"Habilitado";"10.240.67.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-JOI-44.254";"SW3-RGR-JOI-44.254";"Habilitado";"10.240.44.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-LGR-45.254";"SW3-RGR-LGR-45.254";"Habilitado";"10.240.45.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-LIV2-78.254";"SW3-RGR-LIV2-78.254";"Habilitado";"10.240.78.254";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR";;;;;;;;
+"SW3-RGR-LON-46.254";"SW3-RGR-LON-46.254";"Habilitado";"10.240.46.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-MIS-70.254";"SW3-RGR-MIS-70.254";"Habilitado";"10.240.70.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-NSR-49.254";"SW3-RGR-NSR-49.254";"Habilitado";"10.240.49.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-ONS-SAL";"SW3-RGR-ONS-SAL";"Habilitado";"172.19.255.4";"SW-Extreme; RGR-EXTREME; Industrial; ons; Mapa_RGR";;;;;;;;
+"SW3-RGR-ONS-SAR";"SW3-RGR-ONS-SAR";"Habilitado";"172.19.255.3";"SW-Extreme; RGR-EXTREME; Industrial; ons; Mapa_RGR";;;;;;;;
+"SW3-RGR-OSO2-60.254";"SW3-RGR-OSO2-60.254";"Habilitado";"10.240.60.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-PAL-50.254";"SW3-RGR-PAL-50.254";"Habilitado";"10.240.50.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-PFU-51.254";"SW3-RGR-PFU-51.254";"Habilitado";"10.240.51.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-SED1";"SW3-RGR-SED1";"Habilitado";"172.19.255.1";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_SMSF_Fasorial";;;;;;;;
+"SW3-RGR-SED2";"SW3-RGR-SED2";"Habilitado";"172.19.255.2";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR; Mapa_SMSF_Fasorial";;;;;;;;
+"SW3-RGR-SED94-18.254";"SW3-RGR-SED94-18.254";"Habilitado";"10.240.18.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-SID-52.254";"SW3-RGR-SID-52.254";"Habilitado";"10.240.52.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-SOS-53.254";"SW3-RGR-SOS-53.254";"Habilitado";"10.240.53.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-SSA-54.254";"SW3-RGR-SSA-54.254";"Habilitado";"10.240.54.254";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR";;;;;;;;
+"SW3-RGR-STA-55.254";"SW3-RGR-STA-55.254";"Habilitado";"10.240.55.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RGR-UHPJ-72.254";"SW3-RGR-UHPJ-72.254";"Habilitado";"10.240.72.254";"SW-Extreme; RGR-EXTREME; Industrial; RGR; Mapa_RGR";;;;;;;;
+"SW3-RGR-XAN-58.254";"SW3-RGR-XAN-58.254";"Habilitado";"10.240.58.254";"SW-Extreme; RGR-EXTREME; Industrial; Mapa_RGR";;;;;;;;
+"SW3-RRS";"SW3-RRS";"Habilitado";"10.6.100.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-SCR1";"SW3-SCR1";"Habilitado";"10.6.25.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-SDI";"SW3-SDI";"Habilitado";"10.6.118.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1148G-80320";"16.2.5.4";"ANASTACIO";"EG1191361";""
+"SW3-SED-Auditorio";"SW3-SED-Auditorio";"Habilitado";"10.6.4.129";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450a-24t";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-SED-CPD01";"SW3-SED-CPD01";"Habilitado";"10.6.1.10";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-SED-CPD02";"SW3-SED-CPD02";"Habilitado";"10.6.1.20";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"BD-8806";"1128G-01620";"15.5.2.9";"";"";""
+"SW3-SED-CPD03";"SW3-SED-CPD03";"Habilitado";"10.6.1.2";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-48p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-SED-Rack-B";"SW3-SED-Rack-B";"Habilitado";"10.6.4.102";"SW-Extreme; Corporativa";"";"";"X250e-24p";"0947G-81285";"15.3.5.2 patch1-19";"ABDON_BATISTA";"EG1188362";""
+"SW3-SED-SALACOM";"SW3-SED-SALACOM";"Habilitado";"10.6.1.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X450e-48p";"1042G-80110";"15.3.5.2";"RACK-SALACOM";"EG1189376";""
+"SW3-SED-TEL-PRI";"SW3-SED-TEL-PRI";"Habilitado";"10.6.1.11";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1042G-80110";"16.2.5.4";"RACK-SALACOM";"EG1189376";""
+"SW3-SED-TEL-SEC";"SW3-SED-TEL-SEC";"Habilitado";"10.6.1.13";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1042G-80110";"16.2.5.4";"RACK-SALACOM";"EG1189376";""
+"SW3-SER";"SW3-SER";"Habilitado";"10.6.86.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-SER_DEME-1";"SW3-SER_DEME-1";"Habilitado";"10.6.86.5";"SW-Extreme; Corporativa";"";"";"X440-48p";"1127G-80237";"16.2.5.4";"DOURADOS";"EG1191481";""
+"SW3-SER-Auditorio";"SW3-SER-Auditorio";"Habilitado";"10.6.86.8";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-24p";"0947G-81285";"16.2.5.4";"ABDON_BATISTA";"EG1188362";""
+"SW3-SER-DEML";"SW3-SER-DEML";"Habilitado";"10.6.86.17";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X440-48p";"0947G-81285";"16.2.5.4";"ABDON_BATISTA";"EG1188362";""
+"SW3-SER-SMPAL";"SW3-SER-SMPAL";"Habilitado";"10.6.86.15";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"0947G-81285";"15.3.5.2";"ABDON_BATISTA";"EG1188362";""
+"SW3-SID";"SW3-SID";"Habilitado";"10.6.56.1";"SW-Extreme; Corporativa; Mapa_EDD-SC-PR-SP-MS; Mapa_Corporativa";;;;;;;;
+"SW3-SMA";"SW3-SMA";"Habilitado";"10.6.102.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-SMA3";"SW3-SMA3";"Habilitado";"10.6.95.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";;;;;;;;
+"SW3-SOS";"SW3-SOS";"Habilitado";"10.6.76.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-SPA2";"SW3-SPA2";"Habilitado";"10.6.46.4";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"2015G-02111";"16.2.4.5";"ATLANTIDA";"EG188000019024";""
+"SW3-SPA2-TSLE";"SW3-SPA2-TSLE";"Habilitado";"10.6.46.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-SRO";"SW3-SRO";"Habilitado";"10.6.67.1";"SW-Extreme; Industrial; Corporativa; Mapa_Atendimento_Clientes";;;;;;;;
+"SW3-SSA";"SW3-SSA";"Habilitado";"10.6.63.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-STA";"SW3-STA";"Habilitado";"10.6.66.1";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Corporativa";;;;;;;;
+"SW3-STA-CLI";"SW3-STA-CLI";"Habilitado";"10.6.66.2";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";"";"";"X460-24t";"1129G-80254";"15.2.3.2";"";"";""
+"SW3-STA-Escri";"SW3-STA-Escri";"Habilitado";"10.6.66.10";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-SVI";"SW3-SVI";"Habilitado";"10.6.101.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-TDM-ALE";"SW3-TDM-ALE";"Habilitado";"10.6.78.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-BGE";"SW3-TDM-BGE";"Habilitado";"10.6.108.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-BLU";"SW3-TDM-BLU";"Habilitado";"10.6.65.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-CAX";"SW3-TDM-CAX";"Habilitado";"10.6.70.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-CBA";"SW3-TDM-CBA";"Habilitado";"10.6.19.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-CGR";"SW3-TDM-CGR";"Habilitado";"10.6.16.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-CMO";"SW3-TDM-CMO";"Habilitado";"10.6.62.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-CNO";"SW3-TDM-CNO";"Habilitado";"10.6.64.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-DOU";"SW3-TDM-DOU";"Habilitado";"10.6.42.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-DRO";"SW3-TDM-DRO";"Habilitado";"10.6.30.10";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-GRA";"SW3-TDM-GRA";"Habilitado";"10.6.27.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-GUA";"SW3-TDM-GUA";"Habilitado";"10.6.120.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-IJU2-CLI";"SW3-TDM-IJU2-CLI";"Habilitado";"10.6.59.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-IVP";"SW3-TDM-IVP";"Habilitado";"10.6.37.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-LIV2";"SW3-TDM-LIV2";"Habilitado";"10.6.69.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-LON";"SW3-TDM-LON";"Habilitado";"10.6.32.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-NSR";"SW3-TDM-NSR";"Habilitado";"10.6.89.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-PFU-CLI";"SW3-TDM-PFU-CLI";"Habilitado";"10.6.77.2";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-PLT";"SW3-TDM-PLT";"Habilitado";"10.6.103.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-PME-Esul";"SW3-TDM-PME-Esul";"Habilitado";"10.6.98.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"10.6.53.2";"SW3-TDM-PNO";"Habilitado";"10.6.53.2";"SW-Extreme; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-TDM-QUI";"SW3-TDM-QUI";"Habilitado";"10.6.51.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-RRS";"SW3-TDM-RRS";"Habilitado";"10.6.100.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-SCR1";"SW3-TDM-SCR1";"Habilitado";"10.6.25.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-SED-CPD01";"SW3-TDM-SED-CPD01";"Habilitado";"10.6.4.10";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-SED-CPD02";"SW3-TDM-SED-CPD02";"Habilitado";"10.6.4.20";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-SMA";"SW3-TDM-SMA";"Habilitado";"10.6.102.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-STA-CLI";"SW3-TDM-STA-CLI";"Habilitado";"10.6.66.2";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-UTUR";"SW3-TDM-UTUR";"Habilitado";"10.6.106.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TDM-XAN";"SW3-TDM-XAN";"Habilitado";"10.6.35.1";"SW-Extreme; Corporativa; TDM_Extreme; Mapa_TDM";;;;;;;;
+"SW3-TPR2";"SW3-TPR2";"Habilitado";"10.6.74.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS";;;;;;;;
+"SW3-UHBC";"SW3-UHBC";"Habilitado";"10.6.26.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-UHJB";"SW3-UHJB";"Habilitado";"10.6.44.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-UHPJ";"SW3-UHPJ";"Habilitado";"10.6.92.1";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-UHSD_QTL_1";"SW3-UHSD_QTL_1";"Habilitado";"10.6.58.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-UHSD-QTL_12";"SW3-UHSD-QTL_12";"Habilitado";"10.6.58.12";"SW-Extreme; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-UTUR";"SW3-UTUR";"Habilitado";"10.6.106.1";"SW-Extreme; Industrial; Corporativa; Mapa_EDD_RS; Mapa_Atendimento_Clientes; Mapa_Corporativa";;;;;;;;
+"SW3-VIN";"SW3-VIN";"Habilitado";"10.6.116.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW3-VMT";"SW3-VMT";"Habilitado";"10.6.48.1";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X460G2-24t-10G4";"2015G-02111";"32.2.1.8";"ATLANTIDA";"EG188000019024";""
+"SW3-XAN";"SW3-XAN";"Habilitado";"10.6.35.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";"";"";"X460-24t";"1129G-80264";"16.2.5.4";"";"";""
+"SW3-XAN-Escr";"SW3-XAN-Escr";"Habilitado";"10.6.35.10";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";"";"";"X250e-48p";"1129G-80264";"15.3.5.2";"";"";""
+"SW3-YTA";"SW3-YTA";"Habilitado";"10.6.52.1";"SW-Extreme; Industrial; Corporativa; Mapa_Corporativa";;;;;;;;
+"SW-CNG2-CFTV";"SW-CNG2-CFTV";"Habilitado";"10.3.96.2";"CFTV; Corporativa; Mapa_Corporativa; DM4050; SW-CFTV; DM4270";"";"";"DM4050";"";"";"";"";""
+"SW-CNG3-CFTV";"SW-CNG3-CFTV";"Habilitado";"10.3.97.2";"CFTV; Corporativa; Mapa_Corporativa; DM4050; SW-CFTV; DM4270";"";"";"DM4050";"";"";"";"";""
+"SW-JAS-CFTV";"SW-JAS-CFTV";"Habilitado";"10.2.123.10";"CFTV; Corporativa; Mapa_Corporativa; DM4050; SW-CFTV; DM4270";"";"";"DM4270";"";"";"";"";""
+"SW-LIV3-CFTV";"SW-LIV3-CFTV";"Habilitado";"10.3.79.2";"CFTV; Corporativa; Mapa_Corporativa; DM4050; SW-CFTV; DM4270";"";"";"DM4050";"";"";"";"";""
+"SW-RGR-SED94B";"SW-RGR-SED94B";"Habilitado";"172.19.0.116";"Discovered hosts; SW-Extreme; RGR-EXTREME";;;;;;;;
+"SW-SED-CPD_Gerencia_2";"SW-SED-CPD_Gerencia_2";"Habilitado";"10.6.1.5";"SW-Extreme; Corporativa; Mapa_Corporativa";"";"";"X250e-48t";"1042G-80110";"15.3.5.2";"RACK-SALACOM";"EG1189376";""
+"uhbc-1ppl1-sw2";"uhbc-1ppl1-sw2";"Habilitado";"172.20.1.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhbc-1ppl-sw1";"uhbc-1ppl-sw1";"Habilitado";"172.20.0.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhbc-bne-sw2";"uhbc-bne-sw2";"Habilitado";"172.20.1.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhbc-p2-bne-sw1";"uhbc-p2-bne-sw1";"Habilitado";"172.20.0.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhbc-ucc-sw1";"uhbc-ucc-sw1";"Habilitado";"172.20.0.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhbc-ucc-sw2";"uhbc-ucc-sw2";"Habilitado";"172.20.1.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw1";"uhjb-sw1";"Habilitado";"172.20.24.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw10";"uhjb-sw10";"Habilitado";"172.20.25.243";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw11";"uhjb-sw11";"Habilitado";"172.20.24.244";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw12";"uhjb-sw12";"Habilitado";"172.20.25.244";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw13";"uhjb-sw13";"Habilitado";"172.20.24.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw14";"uhjb-sw14";"Habilitado";"172.20.25.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw15";"uhjb-sw15";"Habilitado";"172.20.24.246";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw2";"uhjb-sw2";"Habilitado";"172.20.25.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw3";"uhjb-sw3";"Habilitado";"172.20.24.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw4";"uhjb-sw4";"Habilitado";"172.20.25.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw5";"uhjb-sw5";"Habilitado";"172.20.24.241";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw6";"uhjb-sw6";"Habilitado";"172.20.25.241";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw7";"uhjb-sw7";"Habilitado";"172.20.24.242";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw8";"uhjb-sw8";"Habilitado";"172.20.25.242";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhjb-sw9";"uhjb-sw9";"Habilitado";"172.20.24.243";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw1";"uhpj-sw1";"Habilitado";"172.20.6.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw2";"uhpj-sw2";"Habilitado";"172.20.7.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw3";"uhpj-sw3";"Habilitado";"172.20.6.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw4a";"uhpj-sw4a";"Habilitado";"172.20.6.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw4b";"uhpj-sw4b";"Habilitado";"172.20.6.241";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw5a";"uhpj-sw5a";"Habilitado";"172.20.6.242";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw5b";"uhpj-sw5b";"Habilitado";"172.20.6.243";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw6a";"uhpj-sw6a";"Habilitado";"172.20.6.244";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw6b";"uhpj-sw6b";"Habilitado";"172.20.6.245";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw7a";"uhpj-sw7a";"Habilitado";"172.20.6.246";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw7b";"uhpj-sw7b";"Habilitado";"172.20.6.247";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw8";"uhpj-sw8";"Habilitado";"172.20.6.248";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhpj-sw9";"uhpj-sw9";"Habilitado";"172.20.6.249";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw1";"uhsd-sw1";"Habilitado";"172.20.12.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw10";"uhsd-sw10";"Habilitado";"172.20.13.242";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw11";"uhsd-sw11";"Habilitado";"172.20.12.243";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw12";"uhsd-sw12";"Habilitado";"172.20.13.243";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw13";"uhsd-sw13";"Habilitado";"172.20.12.244";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw14";"uhsd-sw14";"Habilitado";"172.20.13.244";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw15";"uhsd-sw15";"Habilitado";"172.20.12.245";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw16";"uhsd-sw16";"Habilitado";"172.20.13.245";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw17";"uhsd-sw17";"Habilitado";"172.20.12.246";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw18";"uhsd-sw18";"Habilitado";"172.20.13.246";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw19";"uhsd-sw19";"Habilitado";"172.20.12.247";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw2";"uhsd-sw2";"Habilitado";"172.20.13.238";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw20";"uhsd-sw20";"Habilitado";"172.20.13.247";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw21";"uhsd-sw21";"Habilitado";"172.20.12.248";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw3";"uhsd-sw3";"Habilitado";"172.20.12.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw4";"uhsd-sw4";"Habilitado";"172.20.13.239";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw5";"uhsd-sw5";"Habilitado";"172.20.12.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw6";"uhsd-sw6";"Habilitado";"172.20.13.240";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw7";"uhsd-sw7";"Habilitado";"172.20.12.241";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw8";"uhsd-sw8";"Habilitado";"172.20.13.241";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
+"uhsd-sw9";"uhsd-sw9";"Habilitado";"172.20.12.242";"CROI; Mapa_TLC_COSE_Geracao; switchesL2; switches_l2";;;;;;;;
