@@ -66,6 +66,15 @@ sincronizar mapas com grupos de hosts do Zabbix.
 - Leitura dos elementos existentes
 - Comparação de layouts
 
+### Permissões em Massa (PZA 1.0)
+
+- Interface independente em `PZA_1.0`
+- Seleção de vários mapas e grupos de usuários, com busca
+- Concessão ou alteração para somente leitura ou leitura e escrita
+- Remoção do acesso dos grupos selecionados
+- Preservação das permissões de outros grupos e de usuários individuais
+- Inicialização por `PZA_1.0/Abrir-Gerenciador-de-Permissoes.bat`
+
 ### Auditoria
 
 - Comparação entre grupo de hosts e mapa
@@ -175,6 +184,8 @@ UI
 ✅ Auditoria de hosts ausentes
 
 ✅ Barra de progresso
+
+✅ Gerenciamento em massa de permissões de grupos em mapas
 
 ---
 
